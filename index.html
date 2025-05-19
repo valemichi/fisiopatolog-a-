@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fisiopatología</title>
     <link rel="stylesheet" href="styles.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -30,6 +31,8 @@
     </header>
     <main>
     <section>
+<section id="otros">
+    <h2>Sistema Cardiovascular</h2>
     <h2><i class="fas fa-heartbeat icon"></i> Insuficiencia Cardiaca Congestiva Crónica</h2>
 
     <button class="accordion">1. Definición</button>
@@ -823,62 +826,74 @@
     </div>
 </section>
 </section>
+
+
 <section id="respiratorio">
     <h2>Fisiopatología del sistema respiratorio</h2>
 
    <section>
-    <h2><i class="fas fa-lungs icon"></i> Insuficiencia Respiratoria</h2>
+    <h2><i class="fas fa-heartbeat icon"></i>  Insuficiencia Respiratoria</h2>
 
     <button class="accordion">1. Definición</button>
-    <div class="panel">
-        <p>La insuficiencia respiratoria es un síndrome clínico caracterizado por la incapacidad del sistema respiratorio para mantener niveles adecuados de oxígeno (hipoxemia) y/o eliminar dióxido de carbono (hipercapnia) en la sangre, necesarios para el metabolismo celular normal.</p>
+      <div class="panel">
+        <p>La insuficiencia respiratoria es un síndrome caracterizado por la incapacidad del sistema respiratorio para mantener un adecuado intercambio gaseoso, resultando en hipoxemia (PaO₂ < 60 mmHg) y/o hipercapnia (PaCO₂ > 45 mmHg) en reposo, a nivel del mar y respirando aire ambiente. Se clasifica en insuficiencia respiratoria aguda (IRA) cuando se desarrolla en minutos u horas, o crónica (IRC) cuando evoluciona durante semanas o meses.</p>
     </div>
 
     <button class="accordion">2. Fisiopatología</button>
     <div class="panel">
-        <p>Se produce por alteraciones en el intercambio gaseoso pulmonar, que pueden deberse a problemas en la ventilación, difusión, perfusión o combinación de estos.</p>
+        <p>La insuficiencia respiratoria ocurre cuando existe un desequilibrio entre la capacidad del sistema respiratorio y las demandas metabólicas del organismo. Los mecanismos principales incluyen:</p>
         
-        <p><strong>Mecanismos principales:</strong></p>
         <ul>
-            <li><i class="fas fa-wind icon"></i> <strong>Hipoxemia:</strong> Resulta de alteraciones en la relación ventilación/perfusión, derivación intrapulmonar o difusión alterada</li>
-            <li><i class="fas fa-smog icon"></i> <strong>Hipercapnia:</strong> Ocurre cuando la ventilación alveolar es insuficiente para eliminar el CO₂ producido</li>
+            <li><i class="fas fa-brain icon"></i> <strong>Alteración de la ventilación:</strong>
+                <ul>
+                    <li>Disfunción del centro respiratorio (drogas, lesiones neurológicas)</li>
+                    <li>Alteraciones neuromusculares (Guillain-Barré, miastenia gravis)</li>
+                    <li>Alteraciones de la caja torácica (cifoescoliosis, obesidad mórbida)</li>
+                    <li>Obstrucción de las vías aéreas (EPOC, asma)</li>
+                </ul>
+            </li>
+            <li><i class="fas fa-exchange-alt icon"></i> <strong>Alteración de la difusión:</strong>
+                <ul>
+                    <li>Engrosamiento de la membrana alvéolo-capilar (fibrosis pulmonar)</li>
+                    <li>Reducción del área de intercambio (enfisema)</li>
+                </ul>
+            </li>
+            <li><i class="fas fa-balance-scale icon"></i> <strong>Alteración de la relación ventilación/perfusión (V/Q):</strong>
+                <ul>
+                    <li>Zonas ventiladas pero no perfundidas (espacio muerto)</li>
+                    <li>Zonas perfundidas pero no ventiladas (shunt)</li>
+                </ul>
+            </li>
+            <li><i class="fas fa-tint icon"></i> <strong>Alteración del transporte de oxígeno:</strong>
+                <ul>
+                    <li>Anemia severa</li>
+                    <li>Intoxicación por monóxido de carbono</li>
+                </ul>
+            </li>
         </ul>
-        
-        <p><strong>Consecuencias fisiopatológicas:</strong></p>
-        <ul>
-            <li><i class="fas fa-dumbbell icon"></i> Aumento del trabajo respiratorio</li>
-            <li><i class="fas fa-tint-slash icon"></i> Alteraciones en la oxigenación tisular</li>
-            <li><i class="fas fa-heartbeat icon"></i> Daño a órganos vitales, incluyendo el cerebro y el corazón</li>
-        </ul>
-        
-        <p>La insuficiencia respiratoria puede ser aguda o crónica, dependiendo de la velocidad de instauración y los mecanismos compensatorios.</p>
     </div>
 
     <button class="accordion">3. Epidemiología</button>
     <div class="panel">
         <ul>
-            <li><i class="fas fa-hospital icon"></i> Condición común en pacientes con enfermedades pulmonares agudas o crónicas</li>
-            <li><i class="fas fa-procedures icon"></i> Causa frecuente de hospitalización en unidades de cuidados intensivos</li>
-            <li><i class="fas fa-chart-line icon"></i> Su incidencia varía según la etiología subyacente y la población</li>
-            <li><i class="fas fa-user-injured icon"></i> Más frecuente en pacientes con:</li>
-            <ul>
-                <li>Enfermedades respiratorias crónicas (EPOC, asma)</li>
-                <li>Infecciones pulmonares severas (neumonía)</li>
-                <li>Traumatismos torácicos</li>
-                <li>Enfermedades neuromusculares</li>
-            </ul>
+            <li><i class="fas fa-hospital icon"></i> Representa una causa frecuente de ingreso a unidades de cuidados intensivos (25-40%)</li>
+            <li><i class="fas fa-chart-line icon"></i> La mortalidad varía según la causa, siendo mayor en pacientes con SDRA (30-45%)</li>
+            <li><i class="fas fa-users icon"></i> La insuficiencia respiratoria aguda afecta a todas las edades, con mayor incidencia en extremos de la vida</li>
+            <li><i class="fas fa-user-clock icon"></i> La prevalencia de insuficiencia respiratoria crónica aumenta con la edad y está relacionada con enfermedades respiratorias crónicas como EPOC</li>
         </ul>
     </div>
 
     <button class="accordion">4. Cuadro Clínico</button>
     <div class="panel">
         <ul>
-            <li><i class="fas fa-tired icon"></i> Disnea intensa</li>
+            <li><i class="fas fa-wind icon"></i> Disnea (dificultad respiratoria)</li>
             <li><i class="fas fa-running icon"></i> Taquipnea (respiración rápida)</li>
+            <li><i class="fas fa-dumbbell icon"></i> Uso de músculos accesorios de la respiración</li>
             <li><i class="fas fa-tint icon"></i> Cianosis (coloración azulada de piel y mucosas)</li>
-            <li><i class="fas fa-brain icon"></i> Confusión y somnolencia (por hipoxia e hipercapnia)</li>
-            <li><i class="fas fa-user-injured icon"></i> Uso de músculos accesorios para respirar</li>
-            <li><i class="fas fa-exclamation-triangle icon"></i> En casos graves: pérdida de conciencia y arritmias cardíacas</li>
+            <li><i class="fas fa-brain icon"></i> Alteración del estado mental (confusión, somnolencia)</li>
+            <li><i class="fas fa-stethoscope icon"></i> Signos específicos según la etiología</li>
+            <li><i class="fas fa-low-vision icon"></i> <strong>Hipoxemia:</strong> agitación, taquicardia, hipertensión</li>
+            <li><i class="fas fa-head-side-cough icon"></i> <strong>Hipercapnia:</strong> cefalea, somnolencia, asterixis, hipertensión intracraneal</li>
         </ul>
     </div>
 
@@ -896,51 +911,84 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Oxígeno suplementario</td>
-                    <td>Oxígeno medicinal</td>
-                    <td>Ajustada según saturación y gasometría</td>
-                    <td>Cánula nasal, mascarilla facial o ventilación mecánica</td>
-                    <td>Continua según necesidad</td>
-                </tr>
-                <tr>
                     <td>Broncodilatadores</td>
                     <td>Salbutamol</td>
-                    <td>Según indicación clínica</td>
-                    <td>Inhalatoria</td>
+                    <td>2.5-5 mg</td>
+                    <td>Nebulización</td>
+                    <td>Cada 4-6 horas</td>
+                </tr>
+                <tr>
+                    <td>Antiinflamatorios</td>
+                    <td>Metilprednisolona</td>
+                    <td>40-125 mg</td>
+                    <td>Intravenosa</td>
+                    <td>Cada 6-8 horas</td>
+                </tr>
+                <tr>
+                    <td>Antibióticos</td>
+                    <td>Según patógeno</td>
+                    <td>Variable</td>
+                    <td>Intravenosa/Oral</td>
+                    <td>Según indicación</td>
+                </tr>
+                <tr>
+                    <td>Diuréticos</td>
+                    <td>Furosemida</td>
+                    <td>20-40 mg</td>
+                    <td>Intravenosa</td>
+                    <td>Cada 8-12 horas</td>
+                </tr>
+                <tr>
+                    <td>Oxigenoterapia</td>
+                    <td>Oxígeno</td>
                     <td>Según necesidad</td>
+                    <td>Inhalatoria</td>
+                    <td>Continua</td>
                 </tr>
             </tbody>
         </table>
-        
-        <p><strong>Otros tratamientos:</strong></p>
+        <p><em>Otras medidas terapéuticas incluyen:</em></p>
         <ul>
-            <li><i class="fas fa-pills icon"></i> Antibióticos si hay infección</li>
-            <li><i class="fas fa-capsules icon"></i> Corticosteroides en casos seleccionados</li>
-            <li><i class="fas fa-stethoscope icon"></i> Tratamiento específico de la causa subyacente</li>
-            <li><i class="fas fa-wind icon"></i> Ventilación mecánica no invasiva o invasiva en casos severos</li>
+            <li><i class="fas fa-search icon"></i> Tratamiento de la causa subyacente</li>
+            <li><i class="fas fa-procedures icon"></i> Soporte ventilatorio según necesidad (oxigenoterapia, ventilación no invasiva o invasiva)</li>
+            <li><i class="fas fa-flask icon"></i> Corrección de alteraciones metabólicas asociadas</li>
         </ul>
     </div>
 
     <button class="accordion">6. Tratamiento Nutricional</button>
     <div class="panel">
-        <p><strong>Objetivos dietoterapéuticos:</strong> Mantener un estado nutricional adecuado para soportar el aumento del trabajo respiratorio y la recuperación.</p>
+        <p><strong>Objetivos dietoterapéuticos:</strong></p>
+        <ul>
+            <li><i class="fas fa-weight icon"></i> Prevenir o corregir la desnutrición</li>
+            <li><i class="fas fa-cloud icon"></i> Reducir la producción de CO₂ (en hipercapnia)</li>
+            <li><i class="fas fa-tint icon"></i> Mantener adecuado estado de hidratación</li>
+            <li><i class="fas fa-apple-alt icon"></i> Aportar nutrientes específicos para mejorar la función respiratoria</li>
+            <li><i class="fas fa-shield-alt icon"></i> Prevenir complicaciones metabólicas</li>
+        </ul>
         
         <p><strong>Macronutrientes clave:</strong></p>
         <ul>
-            <li><i class="fas fa-fire icon"></i> Adecuada ingesta calórica para evitar la desnutrición</li>
-            <li><i class="fas fa-drumstick-bite icon"></i> Proteínas suficientes para preservar la masa muscular respiratoria</li>
+            <li><i class="fas fa-drumstick-bite icon"></i> <strong>Proteínas:</strong> 1.2-1.5 g/kg/día (ajustar según función renal)</li>
+            <li><i class="fas fa-bread-slice icon"></i> <strong>Carbohidratos:</strong> 50-55% del aporte calórico total (reducir en hipercapnia)</li>
+            <li><i class="fas fa-oil-can icon"></i> <strong>Lípidos:</strong> 30-35% del aporte calórico total (aumentar en hipercapnia)</li>
+            <li><i class="fas fa-fire icon"></i> <strong>Aporte calórico:</strong> 25-30 kcal/kg/día</li>
         </ul>
         
         <p><strong>Recomendaciones específicas:</strong></p>
         <ul>
-            <li><i class="fas fa-balance-scale icon"></i> Dieta equilibrada con control de líquidos si hay edema pulmonar</li>
-            <li><i class="fas fa-tint-slash icon"></i> Evitar sobrecarga hídrica</li>
-            <li><i class="fas fa-prescription-bottle icon"></i> Suplementación nutricional si es necesaria</li>
-            <li><i class="fas fa-utensils icon"></i> Comidas frecuentes y de poco volumen para evitar la compresión diafragmática</li>
-            <li><i class="fas fa-bread-slice icon"></i> Considerar reducción de carbohidratos en pacientes con hipercapnia crónica</li>
+            <li><i class="fas fa-utensils icon"></i> Dieta fraccionada en 5-6 tomas para reducir el trabajo respiratorio durante las comidas</li>
+            <li><i class="fas fa-cookie-bite icon"></i> Alimentos de fácil masticación y deglución</li>
+            <li><i class="fas fa-balance-scale icon"></i> En pacientes con hipercapnia, aumentar proporción de lípidos y reducir carbohidratos</li>
+            <li><i class="fas fa-glass-water icon"></i> Asegurar adecuada hidratación para fluidificar secreciones</li>
+            <li><i class="fas fa-capsules icon"></i> Suplementación con antioxidantes (vitaminas A, C, E)</li>
+            <li><i class="fas fa-fish icon"></i> Valorar suplementación con omega-3 por su efecto antiinflamatorio</li>
+            <li><i class="fas fa-clipboard-check icon"></i> Monitorizar el estado nutricional periódicamente</li>
+            <li><i class="fas fa-hospital-user icon"></i> En pacientes con ventilación mecánica, valorar nutrición enteral precoz</li>
         </ul>
     </div>
-<section>
+</section>
+
+    <section>
     <h2><i class="fas fa-lungs icon"></i> Enfermedad Pulmonar Obstructiva Crónica (EPOC)</h2>
 
     <button class="accordion">1. Definición</button>
@@ -1077,319 +1125,2826 @@
         </ul>
     </div>
 </section>
+</section>
 
 <section id="excretor">
     <h2>Fisiopatología del sistema excretor y equilibrio ácido-base</h2>
 
-    <article>
-        <h3>Alteraciones de las funciones glomerular y tubular</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Descripción sobre las alteraciones en la función renal...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Alteraciones en la filtración y reabsorción...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Prevalencia y factores de riesgo...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Manifestaciones y síntomas típicos...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Opciones terapéuticas para mejorar la función renal...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Recomendaciones dietéticas específicas...</p>
-        </details>
-    </article>
+   <section>
+    <h2><i class="fas fa-kidneys icon"></i> Alteraciones de las Funciones Glomerular y Tubular</h2>
 
-    <article>
-        <h3>Insuficiencia Renal Aguda</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Clasificación en prerrenal, intrarrenal y postrenal...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Mecanismos de daño renal agudo...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Factores predisponentes...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Manifestaciones clínicas en la insuficiencia renal...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Opciones de manejo farmacológico...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Impacto de la dieta en la recuperación...</p>
-        </details>
-    </article>
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>Son trastornos que afectan las funciones básicas del riñón, incluyendo la filtración glomerular y la reabsorción/secreción tubular, que pueden comprometer la capacidad renal para mantener el equilibrio hidroelectrolítico, eliminar desechos y regular el volumen y composición de la orina.</p>
+    </div>
 
-    <article>
-        <h3>Insuficiencia Renal Crónica</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Progresión de la enfermedad renal crónica...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Procesos que conducen al daño renal irreversible...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Prevalencia y factores de riesgo...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Manifestaciones clínicas y complicaciones...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Opciones de medicación para el manejo...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Intervenciones dietéticas y hábitos saludables...</p>
-        </details>
-    </article>
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <p><strong>Alteraciones glomerulares:</strong></p>
+        <ul>
+            <li><i class="fas fa-filter icon"></i> <strong>Daño en la membrana basal glomerular:</strong> Altera la barrera de filtración selectiva</li>
+            <li><i class="fas fa-tint-slash icon"></i> <strong>Lesión de células endoteliales:</strong> Compromete la permeabilidad vascular</li>
+            <li><i class="fas fa-expand icon"></i> <strong>Alteración mesangial:</strong> Afecta la estructura y función del glomérulo</li>
+            <li><i class="fas fa-arrow-down icon"></i> <strong>Disminución de la tasa de filtración glomerular (TFG):</strong> Reduce la capacidad de eliminación de desechos</li>
+        </ul>
+        
+        <p><strong>Alteraciones tubulares:</strong></p>
+        <ul>
+            <li><i class="fas fa-exchange-alt icon"></i> <strong>Disfunción de células tubulares:</strong> Compromete la reabsorción y secreción</li>
+            <li><i class="fas fa-balance-scale-right icon"></i> <strong>Alteraciones del equilibrio ácido-base:</strong> Por fallo en la reabsorción de bicarbonato o secreción de H+</li>
+            <li><i class="fas fa-vial icon"></i> <strong>Retención de toxinas:</strong> Por incapacidad de eliminar productos de desecho</li>
+            <li><i class="fas fa-bolt icon"></i> <strong>Desequilibrios electrolíticos:</strong> Alteración en el manejo de sodio, potasio, calcio y fósforo</li>
+        </ul>
+        
+        <p><strong>Causas de lesión:</strong></p>
+        <ul>
+            <li><i class="fas fa-tint-slash icon"></i> <strong>Isquemia:</strong> Reduce el flujo sanguíneo renal</li>
+            <li><i class="fas fa-skull-crossbones icon"></i> <strong>Toxinas:</strong> Daño directo a células renales</li>
+            <li><i class="fas fa-fire icon"></i> <strong>Inflamación:</strong> Mediada por citocinas y células inmunes</li>
+            <li><i class="fas fa-shield-virus icon"></i> <strong>Enfermedades inmunológicas:</strong> Depósito de complejos inmunes o anticuerpos</li>
+            <li><i class="fas fa-dna icon"></i> <strong>Alteraciones genéticas:</strong> Afectan proteínas estructurales o funcionales</li>
+        </ul>
+    </div>
 
-    <article>
-        <h3>Fisiopatología de las vías urinarias</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Alteraciones en el tracto urinario...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Procesos inflamatorios y obstrucciones...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Frecuencia y factores predisponentes...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Signos y síntomas de afecciones urinarias...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Medicamentos para afecciones urinarias...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Hábitos alimenticios para la salud renal...</p>
-        </details>
-    </article>
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li><i class="fas fa-users icon"></i> <strong>Prevalencia:</strong> Comunes en diversas enfermedades renales agudas y crónicas</li>
+            <li><i class="fas fa-user-friends icon"></i> <strong>Población afectada:</strong> Personas de todas las edades</li>
+            <li><i class="fas fa-chart-line icon"></i> <strong>Mayor incidencia en pacientes con:</strong></li>
+            <ul>
+                <li>Diabetes mellitus</li>
+                <li>Hipertensión arterial</li>
+                <li>Enfermedades autoinmunes</li>
+                <li>Exposición a nefrotóxicos</li>
+                <li>Infecciones sistémicas</li>
+            </ul>
+            <li><i class="fas fa-hospital icon"></i> <strong>Impacto sanitario:</strong> Causa importante de hospitalización y morbimortalidad</li>
+            <li><i class="fas fa-procedures icon"></i> <strong>Progresión:</strong> Pueden evolucionar a enfermedad renal crónica terminal</li>
+        </ul>
+    </div>
 
-    <article>
-        <h3>Litiasis Renal</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Formación de cálculos en los riñones...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Mecanismos de formación de piedras renales...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Distribución y factores de riesgo...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Síntomas y diagnóstico...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Medicamentos utilizados...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Recomendaciones dietéticas para prevenir cálculos...</p>
-        </details>
-    </article>
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <ul>
+            <li><i class="fas fa-tint icon"></i> <strong>Proteinuria o hematuria:</strong> Indicadores de daño glomerular</li>
+            <li><i class="fas fa-tint-slash icon"></i> <strong>Oliguria o anuria:</strong> Disminución o ausencia de producción de orina</li>
+            <li><i class="fas fa-water icon"></i> <strong>Edema:</strong> Por retención de sodio y agua</li>
+            <li><i class="fas fa-heartbeat icon"></i> <strong>Hipertensión arterial:</strong> Por activación del sistema renina-angiotensina-aldosterona</li>
+            <li><i class="fas fa-bolt icon"></i> <strong>Desequilibrios electrolíticos:</strong></li>
+            <ul>
+                <li>Hiperpotasemia</li>
+                <li>Acidosis metabólica</li>
+                <li>Alteraciones del calcio y fósforo</li>
+            </ul>
+            <li><i class="fas fa-battery-quarter icon"></i> <strong>Fatiga y síntomas de uremia en etapas avanzadas:</strong></li>
+            <ul>
+                <li>Náuseas y vómitos</li>
+                <li>Prurito</li>
+                <li>Alteraciones neurológicas</li>
+                <li>Anemia</li>
+                <li>Pericarditis urémica</li>
+            </ul>
+        </ul>
+    </div>
 
-    <article>
-        <h3>Síndrome Nefrótico</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Formación de cálculos en los riñones...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Mecanismos de formación de piedras renales...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Distribución y factores de riesgo...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Síntomas y diagnóstico...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Medicamentos utilizados...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Recomendaciones dietéticas para prevenir cálculos...</p>
-        </details>
-    </article>
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Grupo farmacológico</th>
+                    <th>Función</th>
+                    <th>Ejemplos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Diuréticos</td>
+                    <td>Control de sobrecarga de volumen</td>
+                    <td>Furosemida, torasemida, hidroclorotiazida</td>
+                </tr>
+                <tr>
+                    <td>IECA/ARA II</td>
+                    <td>Protección renal y control de hipertensión</td>
+                    <td>Enalapril, lisinopril, losartán, valsartán</td>
+                </tr>
+                <tr>
+                    <td>Correctores electrolíticos</td>
+                    <td>Manejo de desequilibrios electrolíticos</td>
+                    <td>Resinas de intercambio (poliestireno sulfonato), bicarbonato</td>
+                </tr>
+                <tr>
+                    <td>Inmunosupresores</td>
+                    <td>Tratamiento de causas inmunológicas</td>
+                    <td>Corticosteroides, ciclofosfamida, rituximab</td>
+                </tr>
+                <tr>
+                    <td>Antibióticos</td>
+                    <td>Tratamiento de infecciones</td>
+                    <td>Ajustados según función renal</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Otros tratamientos:</strong></p>
+        <ul>
+            <li><i class="fas fa-procedures icon"></i> <strong>Terapias de reemplazo renal:</strong> Hemodiálisis, diálisis peritoneal o trasplante renal en casos avanzados</li>
+            <li><i class="fas fa-syringe icon"></i> <strong>Eritropoyetina:</strong> Para manejo de anemia</li>
+            <li><i class="fas fa-pills icon"></i> <strong>Quelantes de fósforo:</strong> Para control de hiperfosfatemia</li>
+            <li><i class="fas fa-capsules icon"></i> <strong>Vitamina D activa:</strong> Para manejo del metabolismo mineral-óseo</li>
+        </ul>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos:</strong> Mantener el equilibrio hidroelectrolítico, controlar la sobrecarga de líquidos y reducir la carga renal.</p>
+        
+        <p><strong>Macronutrientes clave:</strong></p>
+        <ul>
+            <li><i class="fas fa-drumstick-bite icon"></i> <strong>Proteínas:</strong> Restricción en casos crónicos (0.6-0.8 g/kg/día) para disminuir la carga nitrogenada</li>
+            <li><i class="fas fa-fire icon"></i> <strong>Energía:</strong> Aporte calórico adecuado (30-35 kcal/kg/día) para evitar catabolismo proteico</li>
+            <li><i class="fas fa-salt icon"></i> <strong>Sodio:</strong> Restricción (1.5-2.3 g/día) para control de edema e hipertensión</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas:</strong></p>
+        <ul>
+            <li><i class="fas fa-tint icon"></i> <strong>Control de líquidos:</strong> Restricción según balance y función renal residual</li>
+            <li><i class="fas fa-bolt icon"></i> <strong>Potasio:</strong> Restricción (2-3 g/día) en casos de hiperpotasemia</li>
+            <li><i class="fas fa-bone icon"></i> <strong>Fósforo:</strong> Restricción (800-1000 mg/día) para prevenir hiperfosfatemia</li>
+            <li><i class="fas fa-lemon icon"></i> <strong>Control ácido-base:</strong> Dieta alcalinizante en acidosis metabólica</li>
+            <li><i class="fas fa-apple-alt icon"></i> <strong>Alimentos recomendados:</strong> Frutas y verduras bajas en potasio, proteínas de alto valor biológico</li>
+            <li><i class="fas fa-ban icon"></i> <strong>Alimentos a evitar:</strong> Altos en fósforo (lácteos, frutos secos), potasio (plátanos, tomates) y sodio (embutidos, conservas)</li>
+            <li><i class="fas fa-prescription-bottle icon"></i> <strong>Suplementación:</strong> Vitaminas hidrosolubles según necesidad</li>
+        </ul>
+    </div>
+</section>
+
+
+  <section>
+    <h2><i class="fas fa-kidneys icon"></i> Insuficiencia Renal Aguda (prerrenal, intrarrenal y posrenal)</h2>
+
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>La insuficiencia renal aguda (IRA) es la disminución rápida y reversible de la función renal, caracterizada por reducción abrupta del filtrado glomerular y alteraciones en la excreción de productos nitrogenados.</p>
+    </div>
+
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <div class="subtitulo"><i class="fas fa-tint-slash icon"></i> IRA Prerrenal</div>
+        <ul>
+            <li><strong>Causa:</strong> Disminución de la perfusión renal</li>
+            <li><strong>Mecanismos:</strong></li>
+            <ul>
+                <li><i class="fas fa-water icon"></i> <strong>Hipovolemia:</strong> Hemorragia, deshidratación, quemaduras</li>
+                <li><i class="fas fa-heart-broken icon"></i> <strong>Insuficiencia cardíaca:</strong> Reducción del gasto cardíaco</li>
+                <li><i class="fas fa-expand-arrows-alt icon"></i> <strong>Vasodilatación sistémica:</strong> Sepsis, anafilaxia, antihipertensivos</li>
+                <li><i class="fas fa-compress-arrows-alt icon"></i> <strong>Vasoconstricción renal:</strong> AINES, inhibidores de calcineurina</li>
+            </ul>
+            <li><strong>Proceso:</strong> La presión arterial media baja activa mecanismos compensatorios (SRAA, sistema nervioso simpático) para mantener el filtrado glomerular, pero si persiste la hipoperfusión, se reduce el flujo sanguíneo renal y el filtrado glomerular, provocando oliguria.</li>
+            <li><strong>Característica clave:</strong> Reversible si se corrige rápidamente la causa subyacente</li>
+        </ul>
+        
+        <div class="subtitulo"><i class="fas fa-biohazard icon"></i> IRA Intrarrenal (renal o parenquimatosa)</div>
+        <ul>
+            <li><strong>Causa:</strong> Daño directo al parénquima renal</li>
+            <li><strong>Estructuras afectadas:</strong></li>
+            <ul>
+                <li><i class="fas fa-filter icon"></i> <strong>Glomérulos:</strong> Glomerulonefritis aguda</li>
+                <li><i class="fas fa-vial icon"></i> <strong>Túbulos:</strong> Necrosis tubular aguda (NTA)</li>
+                <li><i class="fas fa-network-wired icon"></i> <strong>Intersticio:</strong> Nefritis intersticial</li>
+                <li><i class="fas fa-tint icon"></i> <strong>Vasos:</strong> Vasculitis, microangiopatía trombótica</li>
+            </ul>
+            <li><strong>Mecanismos de daño:</strong></li>
+            <ul>
+                <li><i class="fas fa-clock icon"></i> <strong>Isquemia prolongada:</strong> Hipoperfusión sostenida</li>
+                <li><i class="fas fa-skull-crossbones icon"></i> <strong>Nefrotoxinas:</strong> Antibióticos, contrastes, venenos</li>
+                <li><i class="fas fa-fire icon"></i> <strong>Inflamación:</strong> Mediada por citocinas</li>
+                <li><i class="fas fa-ban icon"></i> <strong>Obstrucción tubular:</strong> Por cilindros o detritus celulares</li>
+            </ul>
+            <li><strong>Consecuencias:</strong> Necrosis tubular aguda, inflamación, pérdida de integridad celular y obstrucción tubular</li>
+        </ul>
+        
+        <div class="subtitulo"><i class="fas fa-ban icon"></i> IRA Postrenal</div>
+        <ul>
+            <li><strong>Causa:</strong> Obstrucción del flujo urinario</li>
+            <li><strong>Sitios de obstrucción:</strong></li>
+            <ul>
+                <li><i class="fas fa-arrow-up icon"></i> <strong>Vías urinarias altas:</strong> Uréteres, pelvis renal</li>
+                <li><i class="fas fa-arrow-down icon"></i> <strong>Vías urinarias bajas:</strong> Vejiga, uretra</li>
+            </ul>
+            <li><strong>Causas comunes:</strong></li>
+            <ul>
+                <li><i class="fas fa-gem icon"></i> <strong>Cálculos renales</strong></li>
+                <li><i class="fas fa-male icon"></i> <strong>Hiperplasia prostática</strong></li>
+                <li><i class="fas fa-tumor icon"></i> <strong>Tumores</strong></li>
+                <li><i class="fas fa-compress icon"></i> <strong>Fibrosis retroperitoneal</strong></li>
+            </ul>
+            <li><strong>Mecanismo:</strong> Elevación de la presión intratubular que disminuye el filtrado glomerular</li>
+            <li><strong>Característica clave:</strong> Rápidamente reversible si se elimina la obstrucción a tiempo</li>
+        </ul>
+    </div>
+
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li><i class="fas fa-percentage icon"></i> <strong>Distribución por tipos:</strong></li>
+            <ul>
+                <li>IRA prerrenal: 70% de los casos en la comunidad y 40% en hospitales</li>
+                <li>IRA intrarrenal: 10-30% de los casos</li>
+                <li>IRA postrenal: 5-10% de los casos</li>
+            </ul>
+            <li><i class="fas fa-hospital icon"></i> <strong>Incidencia hospitalaria:</strong> 5-7% de pacientes hospitalizados</li>
+            <li><i class="fas fa-procedures icon"></i> <strong>Incidencia en UCI:</strong> Hasta 25% de los pacientes críticos</li>
+            <li><i class="fas fa-user-friends icon"></i> <strong>Grupos de riesgo:</strong></li>
+            <ul>
+                <li>Adultos mayores</li>
+                <li>Pacientes con enfermedad renal crónica previa</li>
+                <li>Diabéticos</li>
+                <li>Pacientes con insuficiencia cardíaca</li>
+                <li>Pacientes en estado crítico o sepsis</li>
+            </ul>
+            <li><i class="fas fa-skull-crossbones icon"></i> <strong>Mortalidad:</strong> 20-50% en pacientes hospitalizados, mayor en UCI</li>
+            <li><i class="fas fa-chart-line icon"></i> <strong>Pronóstico:</strong> Alta morbimortalidad si no se trata oportunamente</li>
+        </ul>
+    </div>
+
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <ul>
+            <li><i class="fas fa-tint-slash icon"></i> <strong>Oliguria o anuria:</strong> Producción de orina < 400 ml/día o ausencia de orina</li>
+            <li><i class="fas fa-water icon"></i> <strong>Edema:</strong> Retención de líquidos por disminución de excreción</li>
+            <li><i class="fas fa-heartbeat icon"></i> <strong>Alteraciones de presión arterial:</strong></li>
+            <ul>
+                <li>Hipertensión: En sobrecarga de volumen o activación del SRAA</li>
+                <li>Hipotensión: En causas prerrenales como hipovolemia o shock</li>
+            </ul>
+            <li><i class="fas fa-battery-quarter icon"></i> <strong>Síntomas sistémicos:</strong></li>
+            <ul>
+                <li>Fatiga y debilidad</li>
+                <li>Náuseas y vómitos</li>
+                <li>Confusión o alteración del estado mental</li>
+                <li>Anorexia</li>
+            </ul>
+            <li><i class="fas fa-bolt icon"></i> <strong>Alteraciones electrolíticas:</strong></li>
+            <ul>
+                <li>Hiperpotasemia (potasio elevado)</li>
+                <li>Acidosis metabólica</li>
+                <li>Hiperfosfatemia</li>
+                <li>Hipocalcemia</li>
+            </ul>
+            <li><i class="fas fa-vial icon"></i> <strong>Alteraciones analíticas:</strong></li>
+            <ul>
+                <li>Elevación de creatinina sérica (>0.3 mg/dl en 48h)</li>
+                <li>Aumento de urea/BUN</li>
+                <li>Alteraciones en el sedimento urinario según etiología</li>
+            </ul>
+        </ul>
+    </div>
+
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <div class="subtitulo">IRA Prerrenal</div>
+        <ul>
+            <li><i class="fas fa-tint icon"></i> <strong>Restauración de la volemia:</strong></li>
+            <ul>
+                <li>Soluciones cristaloides (suero fisiológico, Ringer lactato)</li>
+                <li>Coloides en casos seleccionados</li>
+            </ul>
+            <li><i class="fas fa-heartbeat icon"></i> <strong>Soporte hemodinámico:</strong></li>
+            <ul>
+                <li>Vasopresores (noradrenalina) si hipotensión persistente</li>
+                <li>Inotrópicos (dobutamina) en insuficiencia cardíaca</li>
+            </ul>
+            <li><i class="fas fa-ban icon"></i> <strong>Suspensión de fármacos nefrotóxicos:</strong></li>
+            <ul>
+                <li>AINES, IECA/ARA II en situaciones de hipovolemia</li>
+                <li>Aminoglucósidos, contrastes yodados</li>
+            </ul>
+        </ul>
+        
+        <div class="subtitulo">IRA Intrarrenal</div>
+        <ul>
+            <li><i class="fas fa-shield-virus icon"></i> <strong>Tratamiento de la causa subyacente:</strong></li>
+            <ul>
+                <li>Corticosteroides en glomerulonefritis inmunomediadas</li>
+                <li>Inmunosupresores en vasculitis</li>
+                <li>Antibióticos en pielonefritis</li>
+            </ul>
+            <li><i class="fas fa-skull-crossbones icon"></i> <strong>Evitar nefrotoxinas:</strong> Ajuste de dosis de fármacos según función renal</li>
+            <li><i class="fas fa-pills icon"></i> <strong>Tratamiento de soporte:</strong> Manejo de complicaciones</li>
+        </ul>
+        
+        <div class="subtitulo">IRA Postrenal</div>
+        <ul>
+            <li><i class="fas fa-ban icon"></i> <strong>Desobstrucción urgente:</strong></li>
+            <ul>
+                <li>Cateterismo vesical en obstrucción uretral</li>
+                <li>Nefrostomía percutánea o catéter ureteral en obstrucción ureteral</li>
+                <li>Litotricia en litiasis</li>
+                <li>Cirugía en casos seleccionados</li>
+            </ul>
+        </ul>
+        
+        <div class="subtitulo">Manejo General</div>
+        <ul>
+            <li><i class="fas fa-pills icon"></i> <strong>Diuréticos:</strong> Furosemida en sobrecarga de volumen</li>
+            <li><i class="fas fa-bolt icon"></i> <strong>Manejo de electrolitos:</strong></li>
+            <ul>
+                <li>Resinas de intercambio iónico (poliestireno sulfonato) para hiperpotasemia</li>
+                <li>Gluconato de calcio IV en hiperpotasemia grave</li>
+                <li>Bicarbonato sódico en acidosis metabólica severa</li>
+            </ul>
+            <li><i class="fas fa-procedures icon"></i> <strong>Terapias de reemplazo renal:</strong> Hemodiálisis o hemofiltración en casos graves</li>
+        </ul>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos:</strong> Evitar sobrecarga renal, mantener estado nutricional y controlar electrolitos.</p>
+        
+        <p><strong>Macronutrientes clave:</strong></p>
+        <ul>
+            <li><i class="fas fa-drumstick-bite icon"></i> <strong>Proteínas:</strong></li>
+            <ul>
+                <li>Restricción proteica temporal en fases agudas (0.6-0.8 g/kg/día)</li>
+                <li>Proteínas de alto valor biológico</li>
+            </ul>
+            <li><i class="fas fa-fire icon"></i> <strong>Energía:</strong> Aporte calórico adecuado (30-35 kcal/kg/día) para evitar el catabolismo</li>
+            <li><i class="fas fa-salt icon"></i> <strong>Sodio:</strong> Restricción (1.5-2 g/día) según volemia y presión arterial</li>
+            <li><i class="fas fa-bolt icon"></i> <strong>Potasio:</strong> Restricción severa (1.5-2 g/día) en hiperpotasemia</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas:</strong></p>
+        <ul>
+            <li><i class="fas fa-tint icon"></i> <strong>Control de líquidos:</strong> Balance hídrico estricto, restricción según diuresis residual</li>
+            <li><i class="fas fa-lemon icon"></i> <strong>Control ácido-base:</strong> Dieta alcalinizante en acidosis metabólica</li>
+            <li><i class="fas fa-bone icon"></i> <strong>Fósforo:</strong> Restricción (800-1000 mg/día) para prevenir hiperfosfatemia</li>
+            <li><i class="fas fa-apple-alt icon"></i> <strong>Alimentos recomendados:</strong></li>
+            <ul>
+                <li>Carbohidratos complejos</li>
+                <li>Grasas insaturadas</li>
+                <li>Verduras bajas en potasio (lechuga, pepino, cebolla)</li>
+                <li>Frutas bajas en potasio (manzana, pera)</li>
+            </ul>
+            <li><i class="fas fa-ban icon"></i> <strong>Alimentos a evitar:</strong></li>
+            <ul>
+                <li>Altos en potasio (plátanos, tomates, aguacate)</li>
+                <li>Altos en fósforo (lácteos, frutos secos)</li>
+                <li>Altos en sodio (embutidos, conservas, alimentos procesados)</li>
+            </ul>
+            <li><i class="fas fa-utensils icon"></i> <strong>Técnicas culinarias:</strong> Doble cocción para reducir potasio en vegetales</li>
+            <li><i class="fas fa-prescription-bottle icon"></i> <strong>Suplementación:</strong> Vitaminas hidrosolubles según necesidad</li>
+        </ul>
+    </div>
+</section>
+
+    <section>
+    <h2><i class="fas fa-kidney icon"></i> Insuficiencia Renal Crónica</h2>
+
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>La insuficiencia renal crónica (IRC) es la pérdida progresiva e irreversible de la función renal, con disminución persistente del filtrado glomerular y alteración en la excreción de productos metabólicos.</p>
+    </div>
+
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <p>La IRC implica daño renal progresivo por mecanismos inflamatorios, fibrosis y pérdida de nefronas funcionales. La hiperfiltración y hipertrofia compensatoria de nefronas remanentes generan estrés glomerular, perpetuando la lesión. Factores vasoactivos, citocinas y mediadores inflamatorios contribuyen al remodelado y deterioro renal. La acumulación de toxinas y alteraciones en el equilibrio ácido-base y electrolítico afectan múltiples sistemas.</p>
+    </div>
+
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li><i class="fas fa-chart-line icon"></i> La IRC afecta a millones de personas globalmente.</li>
+            <li><i class="fas fa-user-md icon"></i> Mayor prevalencia en pacientes con diabetes, hipertensión y enfermedades glomerulares.</li>
+            <li><i class="fas fa-heartbeat icon"></i> Es una causa importante de morbilidad y mortalidad cardiovascular.</li>
+        </ul>
+    </div>
+
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <ul>
+            <li>Fatiga, anorexia, náuseas</li>
+            <li>Edema, hipertensión</li>
+            <li>Anemia</li>
+            <li>Alteraciones óseas (osteodistrofia renal)</li>
+            <li>Prurito, alteraciones neurológicas</li>
+            <li>Uremia en etapas avanzadas</li>
+        </ul>
+    </div>
+
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Grupo farmacológico</th>
+                    <th>Fármaco</th>
+                    <th>Dosis</th>
+                    <th>Vía</th>
+                    <th>Frecuencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>IECA</td>
+                    <td>Enalapril</td>
+                    <td>5-20 mg/día</td>
+                    <td>Oral</td>
+                    <td>Diario</td>
+                </tr>
+                <tr>
+                    <td>ARA II</td>
+                    <td>Losartán</td>
+                    <td>25-100 mg/día</td>
+                    <td>Oral</td>
+                    <td>Diario</td>
+                </tr>
+                <tr>
+                    <td>Eritropoyetina</td>
+                    <td>Epoetina alfa</td>
+                    <td>50-300 UI/kg</td>
+                    <td>SC/IV</td>
+                    <td>1-3 veces/semana</td>
+                </tr>
+                <tr>
+                    <td>Quelantes de fósforo</td>
+                    <td>Carbonato de calcio</td>
+                    <td>500-1500 mg</td>
+                    <td>Oral</td>
+                    <td>Con las comidas</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Otros: diuréticos, vitamina D activa, calcimiméticos según indicación médica.</p>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos:</strong> Retrasar progresión, controlar síntomas y mantener nutrición adecuada.</p>
+        
+        <p><strong>Macronutrientes clave:</strong></p>
+        <ul>
+            <li>Restricción proteica moderada (0.6-0.8 g/kg/día)</li>
+            <li>Control de sodio (2-3 g/día), potasio y fósforo</li>
+            <li>Aporte calórico adecuado (30-35 kcal/kg/día)</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas:</strong></p>
+        <ul>
+            <li>Dieta hipoproteica con proteínas de alto valor biológico</li>
+            <li>Restricción de sodio para control de presión arterial y edema</li>
+            <li>Restricción de potasio en etapas avanzadas</li>
+            <li>Control de fósforo mediante selección adecuada de alimentos</li>
+            <li>Suplementación de vitaminas hidrosolubles según necesidad</li>
+        </ul>
+    </div>
+</section>
+
+    <section>
+    <h2><i class="fas fa-kidneys icon"></i> Fisiopatología de las Vías Urinarias</h2>
+
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>Conjunto de procesos fisiopatológicos que afectan las vías urinarias, incluyendo infecciones, obstrucciones, inflamaciones y alteraciones funcionales que comprometen la micción y la salud renal.</p>
+    </div>
+
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <p>Las infecciones urinarias se producen por colonización bacteriana ascendiente, favorecida por alteraciones anatómicas o funcionales, estasis urinaria o inmunosupresión. La obstrucción puede generar hidronefrosis y daño renal. La inflamación crónica puede causar fibrosis y alteración de la función. Alteraciones en el vaciamiento vesical o reflujo vesicoureteral predisponen a daño renal.</p>
+        
+        <p>Principales mecanismos fisiopatológicos:</p>
+        <ul>
+            <li>Colonización bacteriana ascendente</li>
+            <li>Estasis urinaria</li>
+            <li>Obstrucción del flujo urinario</li>
+            <li>Alteraciones anatómicas</li>
+            <li>Disfunción del vaciamiento vesical</li>
+            <li>Reflujo vesicoureteral</li>
+        </ul>
+    </div>
+
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li><i class="fas fa-female icon"></i> Las infecciones urinarias son muy frecuentes, especialmente en mujeres.</li>
+            <li><i class="fas fa-male icon"></i> Las obstrucciones urinarias afectan a todas las edades, con mayor incidencia en hombres mayores por hiperplasia prostática.</li>
+            <li><i class="fas fa-child icon"></i> En niños, las malformaciones congénitas son causa importante de alteraciones en las vías urinarias.</li>
+        </ul>
+    </div>
+
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <ul>
+            <li>Disuria, polaquiuria</li>
+            <li>Dolor lumbar o abdominal</li>
+            <li>Fiebre y escalofríos en infección</li>
+            <li>Hematuria</li>
+            <li>Retención urinaria o incontinencia</li>
+        </ul>
+        
+        <p><strong>Signos de alarma:</strong></p>
+        <ul>
+            <li>Fiebre alta persistente</li>
+            <li>Dolor intenso que no cede</li>
+            <li>Hematuria franca</li>
+            <li>Imposibilidad para orinar</li>
+            <li>Deterioro del estado general</li>
+        </ul>
+    </div>
+
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Grupo farmacológico</th>
+                    <th>Fármaco</th>
+                    <th>Dosis</th>
+                    <th>Vía</th>
+                    <th>Frecuencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Antibióticos</td>
+                    <td>Nitrofurantoína</td>
+                    <td>100 mg</td>
+                    <td>Oral</td>
+                    <td>Cada 12 horas</td>
+                </tr>
+                <tr>
+                    <td>Antibióticos</td>
+                    <td>Ciprofloxacino</td>
+                    <td>500 mg</td>
+                    <td>Oral</td>
+                    <td>Cada 12 horas</td>
+                </tr>
+                <tr>
+                    <td>Analgésicos</td>
+                    <td>Fenazopiridina</td>
+                    <td>200 mg</td>
+                    <td>Oral</td>
+                    <td>Cada 8 horas</td>
+                </tr>
+                <tr>
+                    <td>Antiinflamatorios</td>
+                    <td>Ibuprofeno</td>
+                    <td>400-600 mg</td>
+                    <td>Oral</td>
+                    <td>Cada 8 horas</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Otros tratamientos: cateterismo vesical, intervenciones quirúrgicas para corregir obstrucciones o anomalías anatómicas según cada caso.</p>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos:</strong> Mantener hidratación adecuada, prevenir infecciones y favorecer la función renal.</p>
+        
+        <p><strong>Macronutrientes clave:</strong></p>
+        <ul>
+            <li>Dieta equilibrada</li>
+            <li>Adecuada ingesta hídrica (2-3 litros diarios)</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas:</strong></p>
+        <ul>
+            <li>Evitar irritantes urinarios (cafeína, alcohol, bebidas carbonatadas)</li>
+            <li>Promover consumo de líquidos, especialmente agua</li>
+            <li>Dieta rica en frutas y verduras</li>
+            <li>Consumo de arándanos o jugo de arándano puede ayudar a prevenir infecciones</li>
+            <li>Limitar el consumo de alimentos muy condimentados o picantes</li>
+            <li>Evitar retener la orina por periodos prolongados</li>
+        </ul>
+        
+        <p><strong>Alimentos recomendados:</strong></p>
+        <ul>
+            <li>Agua y líquidos no irritantes</li>
+            <li>Arándanos y frutas cítricas</li>
+            <li>Verduras frescas</li>
+            <li>Alimentos ricos en vitamina C</li>
+        </ul>
+    </div>
+</section>
+
+
+
+   <section>
+    <h2><i class="fas fa-kidney icon"></i> Litiasis Renal</h2>
+
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>Formación de cálculos (litiasis) en el sistema urinario, generalmente compuestos por sales minerales cristalizadas que pueden obstruir el flujo urinario y causar dolor.</p>
+    </div>
+
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <p>La litiasis renal se produce por la supersaturación de la orina con sales cristalizables (oxalato, calcio, ácido úrico), alteraciones en el pH urinario, baja ingesta de líquidos o anomalías metabólicas. Los cristales se agregan y forman cálculos que pueden alojarse en riñón, uréter o vejiga, causando obstrucción, inflamación y daño tisular.</p>
+        
+        <p><strong>Tipos principales de cálculos:</strong></p>
+        <ul>
+            <li><strong>Cálculos de calcio:</strong> 70-80% de los casos (oxalato de calcio, fosfato de calcio)</li>
+            <li><strong>Cálculos de ácido úrico:</strong> 5-10% de los casos</li>
+            <li><strong>Cálculos de estruvita:</strong> 10-15% de los casos (asociados a infección)</li>
+            <li><strong>Cálculos de cistina:</strong> 1-2% de los casos (origen genético)</li>
+        </ul>
+        
+        <p><strong>Factores que favorecen la formación:</strong></p>
+        <ul>
+            <li>Deshidratación crónica</li>
+            <li>Alteraciones en el pH urinario</li>
+            <li>Hipercalciuria</li>
+            <li>Hiperuricosuria</li>
+            <li>Hiperoxaluria</li>
+            <li>Hipocitraturia</li>
+            <li>Infecciones urinarias recurrentes</li>
+        </ul>
+    </div>
+
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li><i class="fas fa-globe icon"></i> Afecta aproximadamente al 10% de la población mundial</li>
+            <li><i class="fas fa-male icon"></i> Mayor incidencia en hombres adultos (relación hombre:mujer 3:1)</li>
+            <li><i class="fas fa-calendar-alt icon"></i> Pico de incidencia entre los 30-50 años</li>
+            <li><i class="fas fa-sync icon"></i> Tasa de recurrencia: 50% a los 5 años sin tratamiento preventivo</li>
+        </ul>
+        
+        <p><strong>Factores de riesgo:</strong></p>
+        <ul>
+            <li>Deshidratación</li>
+            <li>Dieta rica en proteínas y sodio</li>
+            <li>Obesidad</li>
+            <li>Antecedentes familiares</li>
+            <li>Enfermedades metabólicas (gota, hiperparatiroidismo)</li>
+            <li>Anomalías anatómicas del tracto urinario</li>
+        </ul>
+    </div>
+
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <ul>
+            <li><strong>Dolor lumbar intenso (cólico renal):</strong> Dolor agudo, de inicio súbito, que puede irradiarse hacia el flanco, región inguinal y genitales</li>
+            <li><strong>Hematuria:</strong> Presencia de sangre en la orina, macroscópica o microscópica</li>
+            <li><strong>Náuseas y vómitos:</strong> Asociados al dolor intenso</li>
+            <li><strong>Disuria o polaquiuria:</strong> Si hay infección o irritación vesical</li>
+            <li><strong>Fiebre y escalofríos:</strong> En caso de infección asociada</li>
+            <li><strong>Expulsión de cálculos:</strong> Visibles en la orina</li>
+        </ul>
+        
+        <p><strong>Signos de alarma:</strong></p>
+        <ul>
+            <li>Fiebre alta</li>
+            <li>Imposibilidad para orinar</li>
+            <li>Dolor que no cede con analgésicos</li>
+            <li>Vómitos persistentes</li>
+        </ul>
+    </div>
+
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Grupo farmacológico</th>
+                    <th>Fármaco</th>
+                    <th>Dosis</th>
+                    <th>Vía</th>
+                    <th>Frecuencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AINEs</td>
+                    <td>Ketorolaco</td>
+                    <td>30 mg</td>
+                    <td>IV/IM</td>
+                    <td>Cada 8 horas</td>
+                </tr>
+                <tr>
+                    <td>Opioides</td>
+                    <td>Tramadol</td>
+                    <td>50-100 mg</td>
+                    <td>IV/IM/Oral</td>
+                    <td>Cada 6-8 horas</td>
+                </tr>
+                <tr>
+                    <td>Alfa-bloqueadores</td>
+                    <td>Tamsulosina</td>
+                    <td>0.4 mg</td>
+                    <td>Oral</td>
+                    <td>Cada 24 horas</td>
+                </tr>
+                <tr>
+                    <td>Antiespasmódicos</td>
+                    <td>Butilescopolamina</td>
+                    <td>20 mg</td>
+                    <td>IV/IM</td>
+                    <td>Cada 8 horas</td>
+                </tr>
+                <tr>
+                    <td>Alcalinizantes urinarios</td>
+                    <td>Citrato de potasio</td>
+                    <td>10-20 mEq</td>
+                    <td>Oral</td>
+                    <td>Cada 8-12 horas</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Otros tratamientos:</strong></p>
+        <ul>
+            <li><strong>Hidratación abundante:</strong> 2-3 litros de agua al día</li>
+            <li><strong>Litotricia extracorpórea:</strong> Fragmentación de cálculos mediante ondas de choque</li>
+            <li><strong>Ureteroscopia:</strong> Extracción endoscópica de cálculos</li>
+            <li><strong>Nefrolitotomía percutánea:</strong> Para cálculos de mayor tamaño</li>
+            <li><strong>Cirugía abierta:</strong> En casos complejos</li>
+        </ul>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos:</strong> Prevenir formación de nuevos cálculos y facilitar eliminación.</p>
+        
+        <p><strong>Macronutrientes clave:</strong></p>
+        <ul>
+            <li>Control de ingesta de calcio (no restricción severa)</li>
+            <li>Restricción de sodio</li>
+            <li>Moderación en proteínas animales</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas según tipo de cálculo:</strong></p>
+        
+        <p><strong>Para cálculos de oxalato de calcio:</strong></p>
+        <ul>
+            <li>Aumentar ingesta hídrica (2.5-3 litros/día)</li>
+            <li>Dieta baja en sodio (menos de 2g/día)</li>
+            <li>Ingesta adecuada de calcio (1000-1200 mg/día)</li>
+            <li>Moderar proteínas animales</li>
+            <li>Evitar alimentos ricos en oxalatos: espinacas, ruibarbo, chocolate, té, frutos secos</li>
+            <li>Aumentar consumo de cítricos (limón, naranja)</li>
+        </ul>
+        
+        <p><strong>Para cálculos de ácido úrico:</strong></p>
+        <ul>
+            <li>Aumentar ingesta hídrica</li>
+            <li>Limitar alimentos ricos en purinas: carnes rojas, mariscos, vísceras</li>
+            <li>Alcalinizar la orina (pH>6.5) con frutas y verduras</li>
+            <li>Reducir consumo de alcohol</li>
+        </ul>
+        
+        <p><strong>Para cálculos de estruvita:</strong></p>
+        <ul>
+            <li>Aumentar ingesta hídrica</li>
+            <li>Acidificar la orina con arándanos</li>
+            <li>Prevenir infecciones urinarias</li>
+        </ul>
+    </div>
+</section>
+
+
+    <section>
+    <h2><i class="fas fa-kidneys icon"></i> Síndrome Nefrótico</h2>
+
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>El síndrome nefrótico es un conjunto de signos y síntomas derivados de un daño glomerular que provoca proteinuria masiva, hipoalbuminemia, edema e hiperlipidemia.</p>
+        
+        <p>Se caracteriza por la tétrada clásica:</p>
+        <ul>
+            <li>Proteinuria masiva (>3.5 g/día)</li>
+            <li>Hipoalbuminemia (<3.5 g/dL)</li>
+            <li>Edema</li>
+            <li>Hiperlipidemia</li>
+        </ul>
+    </div>
+
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <p>La lesión glomerular altera la permeabilidad de la membrana basal, permitiendo la pérdida excesiva de proteínas plasmáticas en la orina. La hipoalbuminemia reduce la presión oncótica plasmática, causando edema. La pérdida de proteínas también activa la síntesis hepática de lipoproteínas, generando hiperlipidemia. La retención renal de sodio contribuye al edema y la hipertensión.</p>
+        
+        <p><strong>Mecanismos fisiopatológicos principales:</strong></p>
+        <ul>
+            <li><strong>Alteración de la barrera de filtración glomerular:</strong> Daño en los podocitos, membrana basal glomerular o células endoteliales</li>
+            <li><strong>Proteinuria masiva:</strong> Pérdida de proteínas, principalmente albúmina</li>
+            <li><strong>Hipoalbuminemia:</strong> Reduce la presión oncótica intravascular</li>
+            <li><strong>Edema:</strong> Por disminución de presión oncótica y activación del sistema renina-angiotensina-aldosterona</li>
+            <li><strong>Hiperlipidemia:</strong> Aumento de síntesis hepática de lipoproteínas y reducción del catabolismo</li>
+            <li><strong>Estado protrombótico:</strong> Pérdida de antitrombina III y proteínas S y C</li>
+        </ul>
+        
+        <p><strong>Clasificación etiológica:</strong></p>
+        <ul>
+            <li><strong>Primario:</strong> Enfermedad de cambios mínimos, glomeruloesclerosis focal y segmentaria, nefropatía membranosa</li>
+            <li><strong>Secundario:</strong> Diabetes mellitus, lupus eritematoso sistémico, amiloidosis, infecciones, medicamentos</li>
+        </ul>
+    </div>
+
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li><i class="fas fa-child icon"></i> <strong>En niños:</strong> Incidencia de 2-7 casos por 100,000 niños/año, predomina la enfermedad de cambios mínimos (80-90%)</li>
+            <li><i class="fas fa-user icon"></i> <strong>En adultos:</strong> Incidencia de 3 casos por 100,000 adultos/año, predominan formas secundarias</li>
+        </ul>
+        
+        <p><strong>Distribución por edad:</strong></p>
+        <ul>
+            <li>Niños: Pico entre 2-6 años</li>
+            <li>Adultos: Cualquier edad, mayor incidencia >40 años</li>
+        </ul>
+        
+        <p><strong>Factores de riesgo:</strong></p>
+        <ul>
+            <li>Enfermedades autoinmunes</li>
+            <li>Diabetes mellitus</li>
+            <li>Infecciones (VIH, hepatitis B y C)</li>
+            <li>Medicamentos (AINEs, sales de oro, penicilamina)</li>
+            <li>Predisposición genética</li>
+        </ul>
+    </div>
+
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <ul>
+            <li><strong>Edema generalizado:</strong> Especialmente periorbitario matutino y en miembros inferiores vespertino</li>
+            <li><strong>Proteinuria masiva:</strong> >3.5 g/día o índice proteína/creatinina >3.5</li>
+            <li><strong>Hipoalbuminemia:</strong> <3.5 g/dL</li>
+            <li><strong>Hiperlipidemia:</strong> Elevación de colesterol total y LDL</li>
+            <li><strong>Fatiga y aumento de peso:</strong> Por retención de líquidos</li>
+            <li><strong>Anorexia y malestar general</strong></li>
+            <li><strong>Orina espumosa:</strong> Por presencia de proteínas</li>
+        </ul>
+        
+        <p><strong>Complicaciones:</strong></p>
+        <ul>
+            <li><strong>Infecciones:</strong> Por pérdida de inmunoglobulinas</li>
+            <li><strong>Tromboembolismo:</strong> Por estado de hipercoagulabilidad</li>
+            <li><strong>Insuficiencia renal aguda:</strong> Por hipovolemia o nefrotoxicidad</li>
+            <li><strong>Malnutrición proteica:</strong> Por pérdida urinaria de proteínas</li>
+            <li><strong>Enfermedad cardiovascular acelerada:</strong> Por dislipidemia</li>
+        </ul>
+    </div>
+
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Grupo farmacológico</th>
+                    <th>Fármaco</th>
+                    <th>Dosis</th>
+                    <th>Vía</th>
+                    <th>Frecuencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Corticosteroides</td>
+                    <td>Prednisona</td>
+                    <td>1 mg/kg/día (máx. 80 mg)</td>
+                    <td>Oral</td>
+                    <td>Diaria</td>
+                </tr>
+                <tr>
+                    <td>Inmunosupresores</td>
+                    <td>Ciclofosfamida</td>
+                    <td>2 mg/kg/día</td>
+                    <td>Oral</td>
+                    <td>Diaria</td>
+                </tr>
+                <tr>
+                    <td>Inmunosupresores</td>
+                    <td>Ciclosporina</td>
+                    <td>3-5 mg/kg/día</td>
+                    <td>Oral</td>
+                    <td>Dividida en 2 dosis</td>
+                </tr>
+                <tr>
+                    <td>Inhibidores de la calcineurina</td>
+                    <td>Tacrolimus</td>
+                    <td>0.05-0.1 mg/kg/día</td>
+                    <td>Oral</td>
+                    <td>Dividida en 2 dosis</td>
+                </tr>
+                <tr>
+                    <td>Diuréticos</td>
+                    <td>Furosemida</td>
+                    <td>20-80 mg</td>
+                    <td>Oral/IV</td>
+                    <td>1-2 veces al día</td>
+                </tr>
+                <tr>
+                    <td>IECA</td>
+                    <td>Enalapril</td>
+                    <td>5-20 mg</td>
+                    <td>Oral</td>
+                    <td>1-2 veces al día</td>
+                </tr>
+                <tr>
+                    <td>ARA II</td>
+                    <td>Losartán</td>
+                    <td>25-100 mg</td>
+                    <td>Oral</td>
+                    <td>Diaria</td>
+                </tr>
+                <tr>
+                    <td>Estatinas</td>
+                    <td>Atorvastatina</td>
+                    <td>10-40 mg</td>
+                    <td>Oral</td>
+                    <td>Diaria</td>
+                </tr>
+                <tr>
+                    <td>Anticoagulantes</td>
+                    <td>Enoxaparina</td>
+                    <td>1 mg/kg</td>
+                    <td>SC</td>
+                    <td>Cada 12 horas</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Estrategia terapéutica según causa:</strong></p>
+        <ul>
+            <li><strong>Enfermedad de cambios mínimos:</strong> Corticosteroides como primera línea</li>
+            <li><strong>Glomeruloesclerosis focal y segmentaria:</strong> Corticosteroides + inmunosupresores</li>
+            <li><strong>Nefropatía membranosa:</strong> Ciclofosfamida/ciclosporina + corticosteroides</li>
+            <li><strong>Formas secundarias:</strong> Tratamiento de la enfermedad de base</li>
+        </ul>
+        
+        <p><strong>Tratamiento de soporte:</strong></p>
+        <ul>
+            <li>Restricción de sodio</li>
+            <li>Diuréticos para control del edema</li>
+            <li>IECA/ARA II para reducir proteinuria</li>
+            <li>Estatinas para control de dislipidemia</li>
+            <li>Profilaxis antitrombótica en casos seleccionados</li>
+        </ul>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos:</strong> Controlar edema, mantener estado nutricional y reducir proteinuria.</p>
+        
+        <p><strong>Macronutrientes clave:</strong></p>
+        <ul>
+            <li><strong>Proteínas:</strong> 0.8-1 g/kg/día (proteínas de alto valor biológico)</li>
+            <li><strong>Sodio:</strong> 2-3 g/día (restricción moderada)</li>
+            <li><strong>Lípidos:</strong> Reducción de grasas saturadas y colesterol</li>
+            <li><strong>Energía:</strong> 35-40 kcal/kg/día para compensar pérdidas proteicas</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas:</strong></p>
+        <ul>
+            <li><strong>Dieta hiposódica:</strong> Evitar alimentos procesados, embutidos, conservas, condimentos y salsas comerciales</li>
+            <li><strong>Proteínas de alto valor biológico:</strong> Carnes magras, pescado, clara de huevo, lácteos bajos en grasa</li>
+            <li><strong>Patrón alimentario cardiosaludable:</strong> Incrementar consumo de frutas, verduras, legumbres, cereales integrales</li>
+            <li><strong>Grasas saludables:</strong> Aceite de oliva, pescados grasos, aguacate, frutos secos (con moderación)</li>
+            <li><strong>Control de líquidos:</strong> Según grado de edema y función renal</li>
+            <li><strong>Suplementación:</strong> Vitamina D y calcio si hay tratamiento prolongado con corticoides</li>
+        </ul>
+        
+        <p><strong>Alimentos recomendados:</strong></p>
+        <ul>
+            <li>Carnes magras, pescado, clara de huevo</li>
+            <li>Frutas y verduras frescas</li>
+            <li>Cereales integrales</li>
+            <li>Aceite de oliva</li>
+            <li>Hierbas aromáticas como sustituto de la sal</li>
+        </ul>
+        
+        <p><strong>Alimentos a limitar:</strong></p>
+        <ul>
+            <li>Alimentos procesados y ultraprocesados</li>
+            <li>Embutidos y carnes curadas</li>
+            <li>Quesos curados y semicurados</li>
+            <li>Conservas y alimentos enlatados</li>
+            <li>Bollería y repostería industrial</li>
+            <li>Salsas comerciales</li>
+        </ul>
+    </div>
+</section>
+
+
 <section id="digestivo">
     <h2>Fisiopatología del sistema digestivo</h2>
 
-    <article>
-        <h3>Trastornos de la motilidad y del tránsito</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Concepto de los trastornos motores del tubo digestivo...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Alteraciones que afectan la motilidad y el tránsito intestinal...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Distribución y factores predisponentes...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Manifestaciones y síntomas típicos...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Medicamentos y estrategias terapéuticas...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Recomendaciones dietéticas para mejorar la motilidad...</p>
-        </details>
-    </article>
+   
+<section>
+    <h2><i class="fas fa-intestine icon"></i> Trastornos de la motilidad y del tránsito digestivo</h2>
 
-    <article>
-        <h3>Trastornos de las secreciones gástrica e intestinal</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Características generales de los trastornos de secreción...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Alteraciones en la producción de secreciones digestivas...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Factores de riesgo y prevalencia...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Síntomas y manifestaciones clínicas...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Opciones terapéuticas disponibles...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Impacto de la dieta en la regulación de secreciones...</p>
-        </details>
-    </article>
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>Alteraciones en el movimiento coordinado del tubo digestivo que afectan el transporte del contenido alimenticio a lo largo del tracto gastrointestinal, provocando retrasos o aceleraciones anormales del tránsito.</p>
+        
+        <p><strong>Clasificación según segmento afectado:</strong></p>
+        <ul>
+            <li>Trastornos de motilidad esofágica</li>
+            <li>Trastornos de motilidad gástrica</li>
+            <li>Trastornos de motilidad del intestino delgado</li>
+            <li>Trastornos de motilidad colónica</li>
+            <li>Trastornos de motilidad anorrectal</li>
+        </ul>
+        
+        <p><strong>Clasificación según patrón de motilidad:</strong></p>
+        <ul>
+            <li>Hipomotilidad (enlentecimiento del tránsito)</li>
+            <li>Hipermotilidad (aceleración del tránsito)</li>
+            <li>Motilidad descoordinada o ineficaz</li>
+        </ul>
+    </div>
 
-    <article>
-        <h3>Manifestaciones de la patología digestiva</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Concepto y clasificación de las patologías digestivas...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Procesos que afectan la función digestiva...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Prevalencia y factores predisponentes...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Presentación y manifestaciones clínicas...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Enfoques terapéuticos y manejo farmacológico...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Recomendaciones dietéticas y hábitos saludables...</p>
-        </details>
-    </article>
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <p>La motilidad digestiva depende de la acción coordinada del músculo liso gastrointestinal y del sistema nervioso entérico, modulada por señales hormonales y nerviosas. Los trastornos pueden ser de origen neuropático (daño en el plexo nervioso), miopático (alteración muscular) o funcional (alteración en la coordinación motora). Esto genera disfunciones como hipomotilidad, que causa estasis y sobrecrecimiento bacteriano, o hipermotilidad, que puede provocar diarrea y malabsorción.</p>
+        
+        <p><strong>Mecanismos de control de la motilidad:</strong></p>
+        <ul>
+            <li><strong>Sistema nervioso entérico:</strong> Red neuronal intrínseca del tracto digestivo</li>
+            <li><strong>Sistema nervioso autónomo:</strong> Regulación parasimpática (estimula) y simpática (inhibe)</li>
+            <li><strong>Células intersticiales de Cajal:</strong> Marcapasos del ritmo eléctrico basal</li>
+            <li><strong>Hormonas gastrointestinales:</strong> Gastrina, colecistocinina, motilina, GLP-1</li>
+            <li><strong>Neurotransmisores:</strong> Acetilcolina, serotonina, óxido nítrico</li>
+        </ul>
+        
+        <p><strong>Causas según origen:</strong></p>
+        <ul>
+            <li><strong>Neuropáticas:</strong> Diabetes, esclerodermia, amiloidosis, enfermedad de Parkinson, neuropatía autonómica</li>
+            <li><strong>Miopáticas:</strong> Miopatías viscerales, distrofias musculares, esclerodermia</li>
+            <li><strong>Funcionales:</strong> Síndrome de intestino irritable, dispepsia funcional</li>
+            <li><strong>Obstructivas:</strong> Estenosis, adherencias, tumores</li>
+            <li><strong>Metabólicas:</strong> Hipotiroidismo, alteraciones electrolíticas</li>
+            <li><strong>Farmacológicas:</strong> Opioides, anticolinérgicos, antidepresivos</li>
+        </ul>
+        
+        <p><strong>Consecuencias fisiopatológicas:</strong></p>
+        <ul>
+            <li>Estasis del contenido digestivo</li>
+            <li>Sobrecrecimiento bacteriano</li>
+            <li>Malabsorción de nutrientes</li>
+            <li>Alteraciones en la secreción digestiva</li>
+            <li>Inflamación de la mucosa</li>
+            <li>Alteración de la permeabilidad intestinal</li>
+        </ul>
+    </div>
 
-    <article>
-        <h3>Esofagitis</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Proceso inflamatorio del esófago...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Mecanismos que causan inflamación esofágica...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Prevalencia y factores de riesgo...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Manifestaciones como ardor y dificultad para tragar...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Opciones terapéuticas y manejo farmacológico...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Recomendaciones alimenticias para reducir los síntomas...</p>
-        </details>
-    </article>
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li><i class="fas fa-globe icon"></i> Son comunes en la población general, especialmente en trastornos funcionales como el síndrome de intestino irritable (10-15% de la población)</li>
+            <li><i class="fas fa-venus-mars icon"></i> Afecta a ambos sexos, con predominio femenino en algunos trastornos como el estreñimiento crónico (relación mujer:hombre 2:1)</li>
+            <li><i class="fas fa-calendar-alt icon"></i> Afecta a todas las edades, con mayor prevalencia en adultos jóvenes para trastornos funcionales y en ancianos para trastornos de hipomotilidad</li>
+        </ul>
+        
+        <p><strong>Prevalencia de trastornos específicos:</strong></p>
+        <ul>
+            <li>Síndrome de intestino irritable: 10-15% de la población general</li>
+            <li>Dispepsia funcional: 15-20% de la población</li>
+            <li>Estreñimiento crónico: 12-19% de la población</li>
+            <li>Gastroparesia: 1-2% de la población, hasta 40% en diabéticos de larga evolución</li>
+            <li>Acalasia: 1 por cada 100,000 personas/año</li>
+            <li>Pseudo-obstrucción intestinal crónica: 0.9 casos por 100,000 habitantes</li>
+        </ul>
+        
+        <p><strong>Factores de riesgo:</strong></p>
+        <ul>
+            <li>Enfermedades neurológicas</li>
+            <li>Diabetes mellitus</li>
+            <li>Enfermedades del tejido conectivo</li>
+            <li>Cirugías abdominales previas</li>
+            <li>Uso crónico de ciertos medicamentos</li>
+            <li>Edad avanzada</li>
+            <li>Estilo de vida sedentario</li>
+            <li>Dieta baja en fibra</li>
+            <li>Estrés psicológico crónico</li>
+        </ul>
+    </div>
 
-    <article>
-        <h3>Hernia Hiatal</h3>
-        <details>
-            <summary>Definición</summary>
-            <p>Desplazamiento del estómago hacia el tórax...</p>
-        </details>
-        <details>
-            <summary>Fisiopatología</summary>
-            <p>Factores que contribuyen al debilitamiento del hiato esofágico...</p>
-        </details>
-        <details>
-            <summary>Epidemiología</summary>
-            <p>Incidencia y factores de predisposición...</p>
-        </details>
-        <details>
-            <summary>Cuadro clínico</summary>
-            <p>Síntomas como reflujo y dolor epigástrico...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Farmacológico</summary>
-            <p>Uso de inhibidores de ácido y otras terapias...</p>
-        </details>
-        <details>
-            <summary>Tratamiento Nutricional</summary>
-            <p>Dieta recomendada para reducir los síntomas...</p>
-        </details>
-    </article>
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <p><strong>Síntomas generales:</strong></p>
+        <ul>
+            <li><strong>Distensión abdominal:</strong> Sensación de hinchazón o aumento del perímetro abdominal</li>
+            <li><strong>Dolor abdominal:</strong> Tipo cólico o continuo, de intensidad variable</li>
+            <li><strong>Alteraciones del hábito intestinal:</strong> Estreñimiento, diarrea o alternancia de ambos</li>
+            <li><strong>Sensación de plenitud o saciedad precoz:</strong> Especialmente en trastornos de motilidad gástrica</li>
+            <li><strong>Náuseas y vómitos:</strong> En casos severos de hipomotilidad o obstrucción</li>
+        </ul>
+        
+        <p><strong>Síntomas específicos según localización:</strong></p>
+        <ul>
+            <li><strong>Esófago:</strong> Disfagia, regurgitación, dolor torácico, pirosis</li>
+            <li><strong>Estómago:</strong> Saciedad precoz, plenitud posprandial, náuseas, vómitos, dolor epigástrico</li>
+            <li><strong>Intestino delgado:</strong> Distensión, borborigmos, dolor periumbilical, diarrea, malabsorción</li>
+            <li><strong>Colon:</strong> Estreñimiento, diarrea, tenesmo, dolor abdominal bajo</li>
+            <li><strong>Anorrectal:</strong> Incontinencia fecal, sensación de evacuación incompleta, dificultad para defecar</li>
+        </ul>
+        
+        <p><strong>Signos de alarma:</strong></p>
+        <ul>
+            <li>Pérdida de peso involuntaria</li>
+            <li>Sangrado digestivo</li>
+            <li>Anemia</li>
+            <li>Fiebre</li>
+            <li>Vómitos persistentes</li>
+            <li>Inicio de síntomas después de los 50 años</li>
+            <li>Antecedentes familiares de cáncer digestivo</li>
+        </ul>
+        
+        <p><strong>Complicaciones:</strong></p>
+        <ul>
+            <li>Deshidratación</li>
+            <li>Desnutrición</li>
+            <li>Desequilibrio hidroelectrolítico</li>
+            <li>Sobrecrecimiento bacteriano</li>
+            <li>Impactación fecal</li>
+            <li>Vólvulo intestinal</li>
+            <li>Perforación intestinal</li>
+        </ul>
+    </div>
+
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Grupo farmacológico</th>
+                    <th>Fármaco</th>
+                    <th>Dosis</th>
+                    <th>Vía</th>
+                    <th>Frecuencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Procinéticos</td>
+                    <td>Metoclopramida</td>
+                    <td>10 mg</td>
+                    <td>Oral/IV</td>
+                    <td>Cada 8 horas</td>
+                </tr>
+                <tr>
+                    <td>Procinéticos</td>
+                    <td>Domperidona</td>
+                    <td>10 mg</td>
+                    <td>Oral</td>
+                    <td>Cada 8 horas</td>
+                </tr>
+                <tr>
+                    <td>Procinéticos</td>
+                    <td>Eritromicina</td>
+                    <td>250 mg</td>
+                    <td>Oral</td>
+                    <td>Cada 8 horas</td>
+                </tr>
+                <tr>
+                    <td>Antiespasmódicos</td>
+                    <td>Butilescopolamina</td>
+                    <td>10-20 mg</td>
+                    <td>Oral/IV</td>
+                    <td>Cada 6-8 horas</td>
+                </tr>
+                <tr>
+                    <td>Antiespasmódicos</td>
+                    <td>Mebeverina</td>
+                    <td>135-200 mg</td>
+                    <td>Oral</td>
+                    <td>Cada 8 horas</td>
+                </tr>
+                <tr>
+                    <td>Laxantes osmóticos</td>
+                    <td>Polietilenglicol</td>
+                    <td>17 g</td>
+                    <td>Oral</td>
+                    <td>1-2 veces al día</td>
+                </tr>
+                <tr>
+                    <td>Laxantes estimulantes</td>
+                    <td>Bisacodilo</td>
+                    <td>5-10 mg</td>
+                    <td>Oral</td>
+                    <td>Diaria</td>
+                </tr>
+                <tr>
+                    <td>Antidiarreicos</td>
+                    <td>Loperamida</td>
+                    <td>2 mg</td>
+                    <td>Oral</td>
+                    <td>Después de cada deposición (máx. 16 mg/día)</td>
+                </tr>
+                <tr>
+                    <td>Secretagogos</td>
+                    <td>Linaclotida</td>
+                    <td>290 μg</td>
+                    <td>Oral</td>
+                    <td>Diaria</td>
+                </tr>
+                <tr>
+                    <td>Antagonistas 5-HT3</td>
+                    <td>Ondansetrón</td>
+                    <td>4-8 mg</td>
+                    <td>Oral/IV</td>
+                    <td>Cada 8-12 horas</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Tratamiento según patología específica:</strong></p>
+        <ul>
+            <li><strong>Gastroparesia:</strong> Procinéticos (metoclopramida, domperidona, eritromicina), antiemético</li>
+            <li><strong>Síndrome de intestino irritable con estreñimiento:</strong> Laxantes osmóticos, linaclotida</li>
+            <li><strong>Síndrome de intestino irritable con diarrea:</strong> Loperamida, antagonistas 5-HT3</li>
+            <li><strong>Estreñimiento crónico:</strong> Laxantes osmóticos, estimulantes, secretagogos</li>
+            <li><strong>Pseudo-obstrucción intestinal:</strong> Procinéticos, antibióticos para sobrecrecimiento bacteriano</li>
+            <li><strong>Acalasia:</strong> Nitratos, bloqueadores de canales de calcio, toxina botulínica</li>
+        </ul>
+        
+        <p><strong>Tratamientos no farmacológicos:</strong></p>
+        <ul>
+            <li><strong>Terapias endoscópicas:</strong> Dilatación neumática, miotomía endoscópica</li>
+            <li><strong>Cirugía:</strong> Miotomía de Heller, colectomía subtotal, ileostomía descompresiva</li>
+            <li><strong>Estimulación eléctrica:</strong> Marcapasos gástrico</li>
+            <li><strong>Biofeedback:</strong> Para trastornos de la defecación</li>
+            <li><strong>Terapia cognitivo-conductual:</strong> Para trastornos funcionales</li>
+            <li><strong>Hipnosis:</strong> Para trastornos funcionales</li>
+        </ul>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos:</strong> Mejorar el tránsito intestinal, reducir síntomas digestivos y mantener un adecuado estado nutricional.</p>
+        
+        <p><strong>Recomendaciones generales:</strong></p>
+        <ul>
+            <li>Fraccionar la alimentación (5-6 comidas pequeñas al día)</li>
+            <li>Masticar bien los alimentos</li>
+            <li>Mantener horarios regulares de comidas</li>
+            <li>Adecuada hidratación (1.5-2 litros de agua al día)</li>
+            <li>Evitar alimentos flatulentos y bebidas carbonatadas</li>
+            <li>Limitar el consumo de alcohol y cafeína</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas según patología:</strong></p>
+        
+        <p><strong>Para hipomotilidad (gastroparesia, estreñimiento):</strong></p>
+        <ul>
+            <li>Dieta baja en grasas (limitar a 40-50 g/día)</li>
+            <li>Dieta baja en fibra insoluble</li>
+            <li>Alimentos de fácil digestión</li>
+            <li>Evitar alimentos ricos en fibra insoluble</li>
+            <li>Comidas pequeñas y frecuentes</li>
+            <li>Líquidos entre comidas, no durante</li>
+            <li>Caminar después de las comidas</li>
+            <li>En estreñimiento: aumentar progresivamente la fibra soluble</li>
+        </ul>
+        
+        <p><strong>Para hipermotilidad (diarrea, SII-D):</strong></p>
+        <ul>
+            <li>Dieta baja en FODMAPs (fermentable oligo-, di-, monosacáridos y polioles)</li>
+            <li>Evitar alimentos irritantes (picantes, cafeína, alcohol)</li>
+            <li>Limitar lactosa si hay intolerancia</li>
+            <li>Aumentar fibra soluble (psyllium, avena)</li>
+            <li>Probar probióticos</li>
+            <li>Evitar edulcorantes artificiales (sorbitol, manitol, xilitol)</li>
+        </ul>
+        
+        <p><strong>Alimentos recomendados según condición:</strong></p>
+        
+        <p><strong>Para estreñimiento:</strong></p>
+        <ul>
+            <li>Frutas: kiwi, ciruela, naranja</li>
+            <li>Verduras: espinacas, brócoli</li>
+            <li>Cereales integrales</li>
+            <li>Legumbres (introducir progresivamente)</li>
+            <li>Semillas de lino, chía</li>
+            <li>Yogur natural (probióticos)</li>
+        </ul>
+        
+        <p><strong>Para gastroparesia:</strong></p>
+        <ul>
+            <li>Purés y sopas</li>
+            <li>Carnes magras bien cocidas y picadas</li>
+            <li>Pescado blanco</li>
+            <li>Huevos</li>
+            <li>Yogur desnatado</li>
+            <li>Frutas cocidas sin piel</li>
+            <li>Arroz blanco</li>
+        </ul>
+        
+        <p><strong>Para SII con diarrea:</strong></p>
+        <ul>
+            <li>Arroz blanco</li>
+            <li>Pan blanco</li>
+            <li>Carnes magras</li>
+            <li>Pescado</li>
+            <li>Huevos</li>
+            <li>Plátano maduro</li>
+            <li>Zanahoria cocida</li>
+            <li>Patata</li>
+        </ul>
+        
+        <p><strong>Suplementación nutricional:</strong></p>
+        <ul>
+            <li>Probióticos específicos según patología</li>
+            <li>Fibra soluble (psyllium) para estreñimiento o SII</li>
+            <li>Suplementos nutricionales completos en casos de desnutrición</li>
+            <li>Vitaminas y minerales si hay deficiencias</li>
+        </ul>
+    </div>
+</section>
+
+
+    <section>
+    <h2><i class="fas fa-flask icon"></i> Trastornos de las secreciones gástrica e intestinal</h2>
+
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>Los trastornos de las secreciones gástrica e intestinal comprenden un grupo de alteraciones caracterizadas por anomalías en la producción, composición o regulación de las secreciones digestivas. Estas secreciones incluyen ácido clorhídrico, pepsinógeno, factor intrínseco, bicarbonato, enzimas pancreáticas, bilis y moco, entre otras. Los trastornos pueden manifestarse como hipersecreción, hiposecreción o alteración cualitativa de estas sustancias, afectando los procesos de digestión y absorción de nutrientes.</p>
+        
+        <p><strong>Principales secreciones digestivas:</strong></p>
+        <ul>
+            <li>Secreción gástrica: Ácido clorhídrico, pepsinógeno, factor intrínseco</li>
+            <li>Secreción pancreática: Enzimas digestivas, bicarbonato</li>
+            <li>Secreción biliar: Sales biliares, colesterol, fosfolípidos</li>
+            <li>Secreción intestinal: Moco, agua, electrolitos, enzimas</li>
+        </ul>
+        
+        <p><strong>Clasificación según alteración:</strong></p>
+        <ul>
+            <li>Hipersecreción: Producción excesiva</li>
+            <li>Hiposecreción: Producción disminuida</li>
+            <li>Alteración cualitativa: Composición anormal</li>
+        </ul>
+    </div>
+
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <p>Las secreciones digestivas están reguladas por mecanismos complejos:</p>
+        
+        <p><strong>1. Secreción gástrica:</strong></p>
+        <ul>
+            <li>Células parietales: Secretan ácido clorhídrico (HCl) y factor intrínseco.</li>
+            <li>Células principales: Secretan pepsinógeno (precursor de pepsina).</li>
+            <li>Células G: Secretan gastrina, que estimula la secreción ácida.</li>
+            <li>Células D: Secretan somatostatina, que inhibe la secreción ácida.</li>
+            <li>Regulación: Neural (vago), hormonal (gastrina, histamina, somatostatina) y paracrina.</li>
+        </ul>
+        
+        <p><strong>2. Secreción pancreática:</strong></p>
+        <ul>
+            <li>Células acinares: Secretan enzimas digestivas (amilasa, lipasa, proteasas).</li>
+            <li>Células ductales: Secretan bicarbonato para neutralizar el ácido gástrico.</li>
+            <li>Regulación: Secretina (estimula bicarbonato) y colecistoquinina (estimula enzimas).</li>
+        </ul>
+        
+        <p><strong>3. Secreción biliar:</strong></p>
+        <ul>
+            <li>Hepatocitos: Sintetizan y secretan bilis (sales biliares, colesterol, fosfolípidos).</li>
+            <li>Vesícula biliar: Concentra y almacena bilis.</li>
+            <li>Regulación: Colecistoquinina (contracción vesicular) y secretina.</li>
+        </ul>
+        
+        <p><strong>4. Secreción intestinal:</strong></p>
+        <ul>
+            <li>Células caliciformes: Secretan moco protector.</li>
+            <li>Células de Paneth: Secretan péptidos antimicrobianos.</li>
+            <li>Enterocitos: Secretan agua y electrolitos.</li>
+            <li>Regulación: Sistema nervioso entérico, hormonas y mediadores locales.</li>
+        </ul>
+        
+        <p><strong>Los trastornos pueden originarse por:</strong></p>
+        <ul>
+            <li><strong>Alteraciones genéticas:</strong> Fibrosis quística (secreción pancreática), síndrome de Zollinger-Ellison (hipersecreción ácida).</li>
+            <li><strong>Infecciones:</strong> Helicobacter pylori (alteración de secreción ácida).</li>
+            <li><strong>Autoinmunidad:</strong> Gastritis autoinmune (hiposecreción ácida), pancreatitis autoinmune.</li>
+            <li><strong>Inflamación crónica:</strong> Pancreatitis crónica, colangitis esclerosante.</li>
+            <li><strong>Obstrucción:</strong> Cálculos biliares, estenosis pancreáticas o biliares.</li>
+            <li><strong>Fármacos:</strong> IBP (inhibidores de bomba de protones), anticolinérgicos.</li>
+            <li><strong>Cirugía:</strong> Gastrectomía, vagotomía, resección intestinal.</li>
+        </ul>
+    </div>
+
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li>La hipersecreción ácida afecta al 10-20% de la población occidental.</li>
+            <li>La insuficiencia pancreática exocrina está presente en el 85-90% de los pacientes con pancreatitis crónica.</li>
+            <li>La prevalencia de aclorhidria aumenta con la edad (10-30% en mayores de 60 años).</li>
+            <li>La malabsorción de sales biliares afecta al 30-50% de los pacientes con resección ileal o enfermedad de Crohn ileal.</li>
+        </ul>
+        
+        <p><strong>Factores de riesgo:</strong></p>
+        <ul>
+            <li>Edad avanzada</li>
+            <li>Infección por H. pylori</li>
+            <li>Consumo crónico de alcohol</li>
+            <li>Tabaquismo</li>
+            <li>Uso prolongado de IBP</li>
+            <li>Enfermedades autoinmunes</li>
+        </ul>
+    </div>
+
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <p><strong>Alteraciones de la secreción ácida:</strong></p>
+        
+        <p><strong>Hipersecreción:</strong></p>
+        <ul>
+            <li>Pirosis (acidez)</li>
+            <li>Regurgitación ácida</li>
+            <li>Dolor epigástrico</li>
+            <li>Úlceras pépticas recurrentes</li>
+        </ul>
+        
+        <p><strong>Hiposecreción:</strong></p>
+        <ul>
+            <li>Dispepsia no ulcerosa</li>
+            <li>Sobrecrecimiento bacteriano intestinal</li>
+            <li>Anemia por deficiencia de vitamina B12</li>
+            <li>Mayor susceptibilidad a infecciones entéricas</li>
+        </ul>
+        
+        <p><strong>Alteraciones de la secreción pancreática:</strong></p>
+        <ul>
+            <li>Esteatorrea (heces grasas)</li>
+            <li>Pérdida de peso</li>
+            <li>Distensión abdominal</li>
+            <li>Flatulencia</li>
+            <li>Deficiencias de vitaminas liposolubles (A, D, E, K)</li>
+            <li>Hiperglucemia (en casos avanzados)</li>
+        </ul>
+        
+        <p><strong>Alteraciones de la secreción biliar:</strong></p>
+        <ul>
+            <li>Esteatorrea</li>
+            <li>Prurito</li>
+            <li>Ictericia</li>
+            <li>Heces acólicas</li>
+            <li>Orina colúrica</li>
+            <li>Malabsorción de vitaminas liposolubles</li>
+        </ul>
+        
+        <p><strong>Alteraciones de la secreción intestinal:</strong></p>
+        <ul>
+            <li>Diarrea acuosa</li>
+            <li>Deshidratación</li>
+            <li>Desequilibrios electrolíticos</li>
+            <li>Malnutrición</li>
+        </ul>
+    </div>
+
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Grupo farmacológico</th>
+                    <th>Fármaco</th>
+                    <th>Dosis</th>
+                    <th>Vía</th>
+                    <th>Frecuencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Inhibidores bomba protones</td>
+                    <td>Omeprazol</td>
+                    <td>20-40 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td>Esomeprazol</td>
+                    <td>20-40 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td>Pantoprazol</td>
+                    <td>20-40 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Antagonistas H2</td>
+                    <td>Ranitidina</td>
+                    <td>150-300 mg</td>
+                    <td>Oral</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Famotidina</td>
+                    <td>20-40 mg</td>
+                    <td>Oral</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Antiácidos</td>
+                    <td>Hidróxido Al/Mg</td>
+                    <td>10-20 ml</td>
+                    <td>Oral</td>
+                    <td>3-4 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Enzimas pancreáticas</td>
+                    <td>Pancreatina</td>
+                    <td>25.000-40.000 UI</td>
+                    <td>Oral</td>
+                    <td>Con cada comida</td>
+                </tr>
+                <tr>
+                    <td>Pancrelipasa</td>
+                    <td>10.000-25.000 UI</td>
+                    <td>Oral</td>
+                    <td>Con cada comida</td>
+                </tr>
+                <tr>
+                    <td>Ácidos biliares</td>
+                    <td>Ácido ursodesoxicólico</td>
+                    <td>8-15 mg/kg</td>
+                    <td>Oral</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Secuestradores sales biliares</td>
+                    <td>Colestiramina</td>
+                    <td>4-16 g</td>
+                    <td>Oral</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Colesevelam</td>
+                    <td>625-1875 mg</td>
+                    <td>Oral</td>
+                    <td>2 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Antidiarreicos</td>
+                    <td>Loperamida</td>
+                    <td>2-4 mg</td>
+                    <td>Oral</td>
+                    <td>1-4 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Racecadotrilo</td>
+                    <td>100 mg</td>
+                    <td>Oral</td>
+                    <td>3 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Probióticos</td>
+                    <td>Varias cepas</td>
+                    <td>Variable</td>
+                    <td>Oral</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos:</strong></p>
+        <ul>
+            <li>Optimizar la digestión y absorción de nutrientes.</li>
+            <li>Controlar los síntomas (acidez, diarrea, esteatorrea).</li>
+            <li>Prevenir o corregir deficiencias nutricionales.</li>
+            <li>Mantener o recuperar un estado nutricional adecuado.</li>
+            <li>Adaptar la alimentación a la capacidad digestiva residual.</li>
+        </ul>
+        
+        <p><strong>Macronutrientes clave:</strong></p>
+        
+        <p><strong>Para hipersecreción ácida:</strong></p>
+        <ul>
+            <li>Proteínas: 15-20% del VCT, preferir fuentes de fácil digestión.</li>
+            <li>Lípidos: 25-30% del VCT, evitar frituras y grasas saturadas.</li>
+            <li>Carbohidratos: 50-60% del VCT, preferir complejos.</li>
+        </ul>
+        
+        <p><strong>Para insuficiencia pancreática exocrina:</strong></p>
+        <ul>
+            <li>Proteínas: 15-20% del VCT, asegurar aporte adecuado.</li>
+            <li>Lípidos: 30-35% del VCT, preferentemente en forma de triglicéridos de cadena media (MCT) en casos severos.</li>
+            <li>Carbohidratos: 45-55% del VCT, preferir complejos.</li>
+            <li>Suplementación: Vitaminas liposolubles (A, D, E, K).</li>
+        </ul>
+        
+        <p><strong>Para alteraciones biliares:</strong></p>
+        <ul>
+            <li>Proteínas: 15-20% del VCT.</li>
+            <li>Lípidos: 20-25% del VCT, reducir en casos de esteatorrea severa.</li>
+            <li>Carbohidratos: 55-65% del VCT.</li>
+            <li>Fibra: 20-25 g/día, preferentemente soluble.</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas:</strong></p>
+        
+        <p><strong>Para hipersecreción ácida:</strong></p>
+        <ul>
+            <li>Evitar alimentos que estimulen la secreción ácida: café, alcohol, chocolate, menta, cítricos, tomate.</li>
+            <li>Fraccionar la alimentación (5-6 comidas/día).</li>
+            <li>Evitar acostarse inmediatamente después de comer.</li>
+            <li>Reducir alimentos muy condimentados o picantes.</li>
+            <li>Limitar bebidas carbonatadas.</li>
+            <li>Evitar tabaco.</li>
+        </ul>
+        
+        <p><strong>Para hiposecreción ácida:</strong></p>
+        <ul>
+            <li>Asegurar adecuada masticación.</li>
+            <li>Considerar suplementación con ácido clorhídrico en casos seleccionados.</li>
+            <li>Vigilar niveles de vitamina B12 y hierro.</li>
+            <li>Considerar probióticos para prevenir sobrecrecimiento bacteriano.</li>
+        </ul>
+        
+        <p><strong>Para insuficiencia pancreática exocrina:</strong></p>
+        <ul>
+            <li>Coordinar la ingesta de enzimas pancreáticas con las comidas.</li>
+            <li>Fraccionar la alimentación.</li>
+            <li>En casos severos, reducir grasas convencionales y usar MCT.</li>
+            <li>Evitar alcohol y tabaco.</li>
+            <li>Suplementar vitaminas liposolubles si es necesario.</li>
+            <li>Dieta hiperproteica e hipercalórica en caso de desnutrición.</li>
+        </ul>
+        
+        <p><strong>Para alteraciones biliares:</strong></p>
+        <ul>
+            <li>Reducir grasas saturadas.</li>
+            <li>Preferir grasas monoinsaturadas.</li>
+            <li>Evitar comidas copiosas.</li>
+            <li>Considerar suplementación con vitaminas liposolubles.</li>
+            <li>En caso de malabsorción de sales biliares con diarrea, dieta baja en grasas.</li>
+            <li>Evitar alcohol.</li>
+        </ul>
+    </div>
+</section>
+
+   <section>
+    <h2><i class="fas fa-stethoscope icon"></i> Manifestaciones de la Patología Digestiva</h2>
+
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>Las manifestaciones de la patología digestiva comprenden un conjunto de signos y síntomas que reflejan alteraciones en la estructura o función del tracto gastrointestinal. Estas manifestaciones son diversas y pueden presentarse de forma aguda o crónica, localizada o difusa, y con diferentes grados de severidad. Incluyen síntomas como dolor abdominal, náuseas, vómitos, alteraciones del tránsito intestinal, hemorragia digestiva, ictericia, entre otros, que pueden ser expresión de múltiples enfermedades digestivas subyacentes.</p>
+        
+        <p><strong>Principales manifestaciones digestivas:</strong></p>
+        <ul>
+            <li>Dolor abdominal</li>
+            <li>Náuseas y vómitos</li>
+            <li>Alteraciones del tránsito intestinal (diarrea, estreñimiento)</li>
+            <li>Hemorragia digestiva</li>
+            <li>Ictericia</li>
+            <li>Síndrome de malabsorción</li>
+            <li>Pirosis y regurgitación</li>
+            <li>Disfagia y odinofagia</li>
+            <li>Distensión abdominal</li>
+        </ul>
+        
+        <p><strong>Clasificación según presentación:</strong></p>
+        <ul>
+            <li>Aguda: Inicio súbito, corta duración</li>
+            <li>Crónica: Evolución prolongada, más de 3 meses</li>
+            <li>Recurrente: Episodios repetidos con períodos asintomáticos</li>
+        </ul>
+    </div>
+
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <p>Las manifestaciones digestivas resultan de diversos mecanismos fisiopatológicos:</p>
+        
+        <p><strong>1. Dolor abdominal:</strong></p>
+        <ul>
+            <li><strong>Visceral:</strong> Originado por distensión, contracción o isquemia de vísceras huecas; mediado por fibras C no mielinizadas; mal localizado.</li>
+            <li><strong>Parietal:</strong> Originado por irritación del peritoneo parietal; mediado por fibras Aδ mielinizadas; bien localizado.</li>
+            <li><strong>Referido:</strong> Percibido en áreas distantes al órgano afectado debido a convergencia de vías nerviosas.</li>
+        </ul>
+        
+        <p><strong>2. Náuseas y vómitos:</strong></p>
+        <ul>
+            <li>Mediados por el centro del vómito en el bulbo raquídeo.</li>
+            <li>Desencadenados por estímulos centrales (área postrema) o periféricos (tracto GI).</li>
+            <li>Implican una secuencia coordinada: salivación, relajación del esfínter esofágico inferior, contracción de músculos abdominales y diafragma.</li>
+        </ul>
+        
+        <p><strong>3. Diarrea:</strong></p>
+        <ul>
+            <li><strong>Osmótica:</strong> Por sustancias no absorbibles que retienen agua en la luz intestinal.</li>
+            <li><strong>Secretora:</strong> Por secreción activa de electrolitos y agua.</li>
+            <li><strong>Inflamatoria:</strong> Por daño de la mucosa con exudación de proteínas, sangre y moco.</li>
+            <li><strong>Motora:</strong> Por tránsito acelerado que reduce la absorción.</li>
+        </ul>
+        
+        <p><strong>4. Estreñimiento:</strong></p>
+        <ul>
+            <li><strong>De tránsito lento:</strong> Por disminución de la motilidad colónica.</li>
+            <li><strong>Disfuncional:</strong> Por alteración en la coordinación de la defecación.</li>
+            <li><strong>Mixto:</strong> Combinación de los anteriores.</li>
+        </ul>
+        
+        <p><strong>5. Hemorragia digestiva:</strong></p>
+        <ul>
+            <li><strong>Alta:</strong> Proximal al ligamento de Treitz (esófago, estómago, duodeno).</li>
+            <li><strong>Baja:</strong> Distal al ligamento de Treitz (yeyuno, íleon, colon, recto).</li>
+            <li>Manifestada como hematemesis, melena, hematoquecia o sangre oculta en heces.</li>
+        </ul>
+        
+        <p><strong>6. Ictericia:</strong></p>
+        <ul>
+            <li><strong>Prehepática:</strong> Por aumento de producción de bilirrubina (hemólisis).</li>
+            <li><strong>Hepática:</strong> Por alteración en la captación o conjugación hepática.</li>
+            <li><strong>Posthepática:</strong> Por obstrucción del flujo biliar.</li>
+        </ul>
+        
+        <p><strong>7. Malabsorción:</strong></p>
+        <ul>
+            <li><strong>Luminal:</strong> Déficit de enzimas digestivas o sales biliares.</li>
+            <li><strong>Mucosa:</strong> Daño en enterocitos o reducción de superficie absortiva.</li>
+            <li><strong>Posabsortiva:</strong> Obstrucción linfática o insuficiencia vascular.</li>
+        </ul>
+    </div>
+
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li>Los síntomas gastrointestinales representan el 10-15% de las consultas en atención primaria.</li>
+            <li>El dolor abdominal es el síntoma digestivo más frecuente (15-25% de la población).</li>
+            <li>La prevalencia de dispepsia en la población general es del 20-40%.</li>
+            <li>La diarrea aguda afecta a cada adulto 1-2 veces al año en países desarrollados.</li>
+            <li>El estreñimiento crónico afecta al 15-20% de la población occidental.</li>
+            <li>La hemorragia digestiva alta tiene una incidencia de 50-150 casos/100,000 habitantes/año.</li>
+            <li>La ictericia está presente en el 2-5% de los ingresos hospitalarios.</li>
+        </ul>
+        
+        <p><strong>Factores de riesgo:</strong></p>
+        <ul>
+            <li>Edad avanzada</li>
+            <li>Medicamentos (AINE, antibióticos)</li>
+            <li>Dieta inadecuada</li>
+            <li>Sedentarismo</li>
+            <li>Estrés</li>
+            <li>Tabaquismo</li>
+            <li>Alcohol</li>
+        </ul>
+    </div>
+
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <p><strong>Dolor abdominal:</strong></p>
+        <ul>
+            <li><strong>Características:</strong> Localización, irradiación, intensidad, carácter, factores agravantes y atenuantes.</li>
+            <li><strong>Tipos:</strong> Cólico (intermitente), continuo, sordo, punzante, urente.</li>
+            <li><strong>Patrones:</strong> Úlcera péptica (rítmico), cólico biliar (intenso, episódico), pancreatitis (continuo, irradiado a espalda).</li>
+        </ul>
+        
+        <p><strong>Náuseas y vómitos:</strong></p>
+        <ul>
+            <li><strong>Características del vómito:</strong> Alimentario, bilioso, fecaloideo, hemático (hematemesis).</li>
+            <li><strong>Temporalidad:</strong> Matutino (embarazo, alcoholismo), postprandial inmediato (psicógeno), tardío (obstrucción).</li>
+            <li><strong>Síntomas asociados:</strong> Dolor, fiebre, diarrea, cefalea, vértigo.</li>
+        </ul>
+        
+        <p><strong>Alteraciones del tránsito intestinal:</strong></p>
+        <ul>
+            <li><strong>Diarrea:</strong> Acuosa, grasa, inflamatoria, número y volumen de deposiciones.</li>
+            <li><strong>Estreñimiento:</strong> Frecuencia, consistencia, esfuerzo defecatorio, sensación de evacuación incompleta.</li>
+            <li><strong>Alternancia:</strong> Patrón característico del síndrome de intestino irritable.</li>
+        </ul>
+        
+        <p><strong>Hemorragia digestiva:</strong></p>
+        <ul>
+            <li><strong>Hematemesis:</strong> Vómito de sangre fresca o "posos de café".</li>
+            <li><strong>Melena:</strong> Heces negras, alquitranadas, malolientes.</li>
+            <li><strong>Hematoquecia:</strong> Emisión de sangre roja por el recto.</li>
+            <li><strong>Síntomas de hipovolemia:</strong> Taquicardia, hipotensión, palidez, síncope.</li>
+        </ul>
+        
+        <p><strong>Ictericia:</strong></p>
+        <ul>
+            <li>Coloración amarillenta de piel y mucosas.</li>
+            <li>Prurito (en colestasis).</li>
+            <li>Acolia (heces pálidas) y coluria (orina oscura) en obstrucción biliar.</li>
+        </ul>
+        
+        <p><strong>Síndrome de malabsorción:</strong></p>
+        <ul>
+            <li>Pérdida de peso</li>
+            <li>Diarrea crónica</li>
+            <li>Esteatorrea</li>
+            <li>Distensión abdominal</li>
+            <li>Deficiencias nutricionales específicas</li>
+        </ul>
+        
+        <p><strong>Otros síntomas digestivos:</strong></p>
+        <ul>
+            <li>Pirosis (acidez)</li>
+            <li>Regurgitación</li>
+            <li>Disfagia (dificultad para tragar)</li>
+            <li>Odinofagia (dolor al tragar)</li>
+            <li>Distensión abdominal</li>
+            <li>Flatulencia</li>
+            <li>Tenesmo (sensación de evacuación incompleta)</li>
+        </ul>
+    </div>
+
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Manifestación</th>
+                    <th>Grupo farmacológico</th>
+                    <th>Fármaco</th>
+                    <th>Dosis</th>
+                    <th>Vía</th>
+                    <th>Frecuencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Dolor abdominal</td>
+                    <td>Antiespasmódicos</td>
+                    <td>Butilescopolamina</td>
+                    <td>10-20 mg</td>
+                    <td>Oral</td>
+                    <td>3-4 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Analgésicos</td>
+                    <td>Paracetamol</td>
+                    <td>500-1000 mg</td>
+                    <td>Oral</td>
+                    <td>3-4 veces/día</td>
+                </tr>
+                <tr>
+                    <td>IBP</td>
+                    <td>Omeprazol</td>
+                    <td>20-40 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Náuseas/Vómitos</td>
+                    <td rowspan="3">Antieméticos</td>
+                    <td>Metoclopramida</td>
+                    <td>10 mg</td>
+                    <td>Oral/IV</td>
+                    <td>3 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Ondansetrón</td>
+                    <td>4-8 mg</td>
+                    <td>Oral/IV</td>
+                    <td>2-3 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Domperidona</td>
+                    <td>10 mg</td>
+                    <td>Oral</td>
+                    <td>3 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Diarrea</td>
+                    <td rowspan="2">Antidiarreicos</td>
+                    <td>Loperamida</td>
+                    <td>2-4 mg</td>
+                    <td>Oral</td>
+                    <td>1-4 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Racecadotrilo</td>
+                    <td>100 mg</td>
+                    <td>Oral</td>
+                    <td>3 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Antibióticos</td>
+                    <td>Rifaximina</td>
+                    <td>200 mg</td>
+                    <td>Oral</td>
+                    <td>3 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Estreñimiento</td>
+                    <td rowspan="2">Laxantes osmóticos</td>
+                    <td>Polietilenglicol</td>
+                    <td>17-34 g</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td>Lactulosa</td>
+                    <td>10-20 g</td>
+                    <td>Oral</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Laxantes estimulantes</td>
+                    <td>Bisacodilo</td>
+                    <td>5-10 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td>Senósidos</td>
+                    <td>12-36 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Hemorragia</td>
+                    <td>IBP</td>
+                    <td>Pantoprazol</td>
+                    <td>80 mg</td>
+                    <td>IV</td>
+                    <td>Bolo + infusión</td>
+                </tr>
+                <tr>
+                    <td>Vasoconstrictores</td>
+                    <td>Terlipresina</td>
+                    <td>2 mg</td>
+                    <td>IV</td>
+                    <td>Cada 4-6 h</td>
+                </tr>
+                <tr>
+                    <td>Hemostáticos</td>
+                    <td>Ácido tranexámico</td>
+                    <td>1 g</td>
+                    <td>IV</td>
+                    <td>3-4 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Ictericia</td>
+                    <td>Colerético</td>
+                    <td>Ácido ursodesoxicólico</td>
+                    <td>8-15 mg/kg</td>
+                    <td>Oral</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Antipruriginosos</td>
+                    <td>Colestiramina</td>
+                    <td>4 g</td>
+                    <td>Oral</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Malabsorción</td>
+                    <td>Enzimas</td>
+                    <td>Pancreatina</td>
+                    <td>25.000-40.000 UI</td>
+                    <td>Oral</td>
+                    <td>Con comidas</td>
+                </tr>
+                <tr>
+                    <td>Vitaminas</td>
+                    <td>Complejo B, A, D, E, K</td>
+                    <td>Variable</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos generales:</strong></p>
+        <ul>
+            <li>Aliviar los síntomas digestivos específicos.</li>
+            <li>Mantener o recuperar un adecuado estado nutricional.</li>
+            <li>Prevenir complicaciones relacionadas con la malnutrición.</li>
+            <li>Adaptar la alimentación a la capacidad digestiva y absortiva.</li>
+            <li>Corregir deficiencias nutricionales específicas.</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas según manifestación:</strong></p>
+        
+        <p><strong>Para dolor abdominal:</strong></p>
+        <ul>
+            <li>Identificar y evitar alimentos desencadenantes.</li>
+            <li>Fraccionar la alimentación (5-6 comidas pequeñas).</li>
+            <li>Evitar alimentos flatulentos (coles, legumbres, cebolla cruda).</li>
+            <li>Reducir grasas en caso de dolor biliar o pancreático.</li>
+            <li>Limitar alimentos muy condimentados, café, alcohol y bebidas carbonatadas.</li>
+            <li>Técnicas culinarias suaves (hervido, vapor, horno).</li>
+            <li>Temperatura moderada de los alimentos (ni muy calientes ni muy fríos).</li>
+        </ul>
+        
+        <p><strong>Para náuseas y vómitos:</strong></p>
+        <ul>
+            <li>Dieta fraccionada y de fácil digestión.</li>
+            <li>Comenzar con líquidos claros y progresar según tolerancia.</li>
+            <li>Preferir alimentos fríos o a temperatura ambiente.</li>
+            <li>Evitar olores intensos durante la preparación.</li>
+            <li>Separar sólidos de líquidos (tomar líquidos entre comidas).</li>
+            <li>Consumir alimentos secos (tostadas, galletas) al despertar.</li>
+            <li>Evitar alimentos grasos, muy dulces o muy condimentados.</li>
+            <li>Alimentos con jengibre pueden ayudar a reducir náuseas.</li>
+        </ul>
+        
+        <p><strong>Para diarrea:</strong></p>
+        <ul>
+            <li>Asegurar hidratación adecuada (soluciones de rehidratación oral).</li>
+            <li>Dieta astringente: arroz, zanahoria cocida, manzana sin piel, plátano maduro.</li>
+            <li>Evitar lactosa en caso de intolerancia secundaria.</li>
+            <li>Limitar alimentos ricos en fibra insoluble, grasas, cafeína y alcohol.</li>
+            <li>Cocinar los alimentos (evitar crudos).</li>
+            <li>Reintroducción progresiva de alimentos según tolerancia.</li>
+            <li>Considerar probióticos (Lactobacillus, Saccharomyces boulardii).</li>
+        </ul>
+        
+        <p><strong>Para estreñimiento:</strong></p>
+        <ul>
+            <li>Aumentar gradualmente la fibra dietética (25-30 g/día).</li>
+            <li>Asegurar adecuada hidratación (2-2.5 L/día).</li>
+            <li>Incluir alimentos con efecto laxante: ciruelas, kiwi, papaya, semillas de lino.</li>
+            <li>Consumir yogur natural o alimentos fermentados.</li>
+            <li>Establecer horario regular para las comidas.</li>
+            <li>Evitar alimentos astringentes (arroz blanco, membrillo).</li>
+            <li>Actividad física regular.</li>
+        </ul>
+        
+        <p><strong>Para hemorragia digestiva:</strong></p>
+        <ul>
+            <li>Fase aguda: dieta absoluta o líquidos claros según indicación médica.</li>
+            <li>Recuperación: dieta progresiva, inicialmente blanda y sin irritantes.</li>
+            <li>Evitar alimentos muy calientes o muy fríos.</li>
+            <li>Suplementación con hierro en caso de anemia ferropénica.</li>
+            <li>Evitar AINE, alcohol y alimentos irritantes gástricos.</li>
+        </ul>
+        
+        <p><strong>Para ictericia:</strong></p>
+        <ul>
+            <li>Dieta baja en grasas en caso de colestasis.</li>
+            <li>Preferir grasas de origen vegetal.</li>
+            <li>Suplementación con vitaminas liposolubles (A, D, E, K) en colestasis prolongada.</li>
+            <li>Fraccionar la alimentación.</li>
+            <li>Asegurar adecuado aporte proteico (1-1.2 g/kg/día).</li>
+            <li>Moderar consumo de alimentos ricos en cobre en enfermedad de Wilson.</li>
+        </ul>
+        
+        <p><strong>Para síndrome de malabsorción:</strong></p>
+        <ul>
+            <li>Adaptar según el déficit específico (enzimático, biliar, mucoso).</li>
+            <li>En insuficiencia pancreática: coordinar enzimas con las comidas.</li>
+            <li>En enfermedad celíaca: dieta estricta sin gluten.</li>
+            <li>En malabsorción de lactosa: restricción de lactosa.</li>
+            <li>Suplementación nutricional según deficiencias específicas.</li>
+            <li>En casos graves: considerar triglicéridos de cadena media (MCT).</li>
+            <li>Dieta hiperproteica e hipercalórica en caso de desnutrición.</li>
+        </ul>
+    </div>
+</section>
+   <section>
+    <h2><i class="fas fa-heartbeat icon"></i> Esofagitis</h2>
+
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>La esofagitis es la inflamación de la mucosa esofágica que puede ser aguda o crónica. Se caracteriza por la presencia de eritema, edema, erosiones o úlceras en la mucosa esofágica, causando síntomas como pirosis, dolor retroesternal, disfagia y odinofagia.</p>
+        
+        <p><strong>Tipos según etiología:</strong></p>
+        <ul>
+            <li><strong>Esofagitis por reflujo:</strong> La más común, causada por exposición al contenido ácido gástrico.</li>
+            <li><strong>Esofagitis infecciosa:</strong> Causada por microorganismos, principalmente en pacientes inmunocomprometidos.</li>
+            <li><strong>Esofagitis eosinofílica:</strong> Enfermedad crónica mediada inmunológicamente con infiltración eosinofílica.</li>
+            <li><strong>Esofagitis por píldoras:</strong> Daño local por contacto directo con medicamentos.</li>
+            <li><strong>Esofagitis por cáusticos:</strong> Lesión química por ingestión de sustancias corrosivas.</li>
+            <li><strong>Esofagitis por radiación:</strong> Secundaria a radioterapia torácica.</li>
+        </ul>
+        
+        <p><strong>Clasificación según severidad (Los Angeles para esofagitis por reflujo):</strong></p>
+        <ul>
+            <li><strong>Grado A:</strong> Una o más lesiones menores de 5 mm.</li>
+            <li><strong>Grado B:</strong> Al menos una lesión mayor de 5 mm sin continuidad entre los extremos de dos pliegues.</li>
+            <li><strong>Grado C:</strong> Lesiones continuas entre los extremos de dos o más pliegues, pero que afectan menos del 75% de la circunferencia.</li>
+            <li><strong>Grado D:</strong> Lesiones que afectan al menos el 75% de la circunferencia esofágica.</li>
+        </ul>
+    </div>
+
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <p>La fisiopatología varía según el tipo de esofagitis:</p>
+        
+        <p><strong>1. Esofagitis por reflujo (ERGE):</strong></p>
+        <ul>
+            <li>Exposición prolongada de la mucosa esofágica al contenido ácido gástrico.</li>
+            <li>Disfunción del esfínter esofágico inferior (EEI) que permite el reflujo.</li>
+            <li>Aclaramiento esofágico deficiente que prolonga el contacto con el ácido.</li>
+            <li>Retraso del vaciamiento gástrico que aumenta el volumen refluido.</li>
+            <li>Hipersecreción ácida en algunos casos.</li>
+            <li>Daño tisular por ácido, pepsina y, en casos de reflujo duodenogástrico, sales biliares.</li>
+            <li>Respuesta inflamatoria con liberación de citoquinas y quimioquinas.</li>
+        </ul>
+        
+        <p><strong>2. Esofagitis eosinofílica:</strong></p>
+        <ul>
+            <li>Reacción inmunológica mediada por alérgenos alimentarios.</li>
+            <li>Infiltración de la mucosa por eosinófilos (≥15 eosinófilos/campo de alto poder).</li>
+            <li>Activación de linfocitos Th2 con liberación de IL-5, IL-13 y eotaxina-3.</li>
+            <li>Remodelado tisular con fibrosis y disfunción motora secundaria.</li>
+        </ul>
+        
+        <p><strong>3. Esofagitis infecciosa:</strong></p>
+        <ul>
+            <li>Invasión directa de la mucosa por microorganismos (Candida, virus herpes, CMV).</li>
+            <li>Más frecuente en pacientes inmunocomprometidos.</li>
+            <li>Destrucción epitelial con formación de úlceras y pseudomembranas.</li>
+        </ul>
+        
+        <p><strong>4. Esofagitis por píldoras:</strong></p>
+        <ul>
+            <li>Contacto directo y prolongado del medicamento con la mucosa.</li>
+            <li>Daño local por pH extremo o efecto citotóxico directo.</li>
+            <li>Estasis del medicamento por alteraciones de la motilidad o estenosis.</li>
+        </ul>
+        
+        <p><strong>5. Esofagitis por cáusticos:</strong></p>
+        <ul>
+            <li>Necrosis coagulativa (álcalis) o licuefactiva (ácidos).</li>
+            <li>Daño transmural con posible perforación.</li>
+            <li>Fase aguda seguida de cicatrización con estenosis.</li>
+        </ul>
+        
+        <p><strong>6. Esofagitis por radiación:</strong></p>
+        <ul>
+            <li>Daño al DNA celular por radiación ionizante.</li>
+            <li>Alteración de la microcirculación con isquemia.</li>
+            <li>Fibrosis progresiva en fase crónica.</li>
+        </ul>
+    </div>
+
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li>La esofagitis por reflujo afecta al 10-20% de la población occidental.</li>
+            <li>La prevalencia de esofagitis erosiva en pacientes con ERGE es del 30-40%.</li>
+            <li>La esofagitis eosinofílica tiene una prevalencia de 1-5/10,000 habitantes, con predominio en varones jóvenes (3:1).</li>
+            <li>La esofagitis infecciosa afecta principalmente a pacientes inmunodeprimidos (30-40% de pacientes con SIDA avanzado).</li>
+            <li>La esofagitis por píldoras representa el 20-30% de las esofagitis químicas.</li>
+        </ul>
+        
+        <p><strong>Factores de riesgo:</strong></p>
+        <ul>
+            <li><strong>Para esofagitis por reflujo:</strong></li>
+            <ul>
+                <li>Obesidad</li>
+                <li>Embarazo</li>
+                <li>Hernia hiatal</li>
+                <li>Tabaquismo</li>
+                <li>Consumo de alcohol</li>
+                <li>Ciertos medicamentos (anticolinérgicos, calcioantagonistas, nitratos)</li>
+            </ul>
+            <li><strong>Para esofagitis eosinofílica:</strong></li>
+            <ul>
+                <li>Antecedentes de atopia (asma, rinitis alérgica, dermatitis atópica)</li>
+                <li>Sexo masculino</li>
+                <li>Raza caucásica</li>
+            </ul>
+            <li><strong>Para esofagitis infecciosa:</strong></li>
+            <ul>
+                <li>Inmunosupresión (VIH, trasplante, quimioterapia)</li>
+                <li>Uso de antibióticos de amplio espectro</li>
+                <li>Uso crónico de corticoides</li>
+            </ul>
+        </ul>
+    </div>
+
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <p><strong>Síntomas comunes a todos los tipos:</strong></p>
+        <ul>
+            <li>Pirosis (sensación de quemazón retroesternal)</li>
+            <li>Dolor torácico/retroesternal</li>
+            <li>Disfagia (dificultad para tragar)</li>
+            <li>Odinofagia (dolor al tragar)</li>
+            <li>Regurgitación</li>
+        </ul>
+        
+        <p><strong>Específicos según tipo:</strong></p>
+        
+        <p><strong>Esofagitis por reflujo:</strong></p>
+        <ul>
+            <li><strong>Síntomas típicos:</strong> pirosis, regurgitación ácida</li>
+            <li><strong>Síntomas atípicos:</strong> tos crónica, disfonía, asma, dolor torácico</li>
+            <li>Empeoramiento postprandial y en decúbito</li>
+            <li>Alivio con antiácidos</li>
+        </ul>
+        
+        <p><strong>Esofagitis eosinofílica:</strong></p>
+        <ul>
+            <li>Disfagia como síntoma predominante</li>
+            <li>Impactación alimentaria frecuente</li>
+            <li>Dolor torácico no relacionado con la deglución</li>
+            <li>Síntomas de reflujo refractario a IBP</li>
+            <li>Antecedentes de atopia (asma, rinitis, dermatitis)</li>
+        </ul>
+        
+        <p><strong>Esofagitis infecciosa:</strong></p>
+        <ul>
+            <li>Odinofagia intensa</li>
+            <li>Disfagia</li>
+            <li>Fiebre</li>
+            <li>En candidiasis: placas blanquecinas adherentes</li>
+            <li>En infección herpética: vesículas y úlceras dolorosas</li>
+        </ul>
+        
+        <p><strong>Esofagitis por píldoras:</strong></p>
+        <ul>
+            <li>Dolor retroesternal agudo</li>
+            <li>Odinofagia de inicio súbito</li>
+            <li>Relación temporal con ingesta de medicamentos</li>
+        </ul>
+        
+        <p><strong>Esofagitis por cáusticos:</strong></p>
+        <ul>
+            <li>Dolor orofaríngeo y retroesternal intenso</li>
+            <li>Disfagia, odinofagia severa</li>
+            <li>Sialorrea, vómitos</li>
+            <li>Lesiones en cavidad oral</li>
+            <li>Complicaciones: perforación, mediastinitis, estenosis</li>
+        </ul>
+    </div>
+
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Tipo de esofagitis</th>
+                    <th>Grupo farmacológico</th>
+                    <th>Fármaco</th>
+                    <th>Dosis</th>
+                    <th>Vía</th>
+                    <th>Frecuencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5">Por reflujo</td>
+                    <td rowspan="2">IBP</td>
+                    <td>Omeprazol</td>
+                    <td>20-40 mg</td>
+                    <td>Oral</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Esomeprazol</td>
+                    <td>20-40 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td>Procinéticos</td>
+                    <td>Domperidona</td>
+                    <td>10 mg</td>
+                    <td>Oral</td>
+                    <td>3 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Antiácidos</td>
+                    <td>Hidróxido Al/Mg</td>
+                    <td>10-20 ml</td>
+                    <td>Oral</td>
+                    <td>3-4 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Alginatos</td>
+                    <td>Alginato sódico</td>
+                    <td>10-20 ml</td>
+                    <td>Oral</td>
+                    <td>3-4 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Eosinofílica</td>
+                    <td>IBP</td>
+                    <td>Omeprazol</td>
+                    <td>20-40 mg</td>
+                    <td>Oral</td>
+                    <td>2 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Corticoides tópicos</td>
+                    <td>Fluticasona</td>
+                    <td>440-880 μg</td>
+                    <td>Inhalado/deglutido</td>
+                    <td>2 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Budesonida</td>
+                    <td>1 mg</td>
+                    <td>Oral (viscosa)</td>
+                    <td>2 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Biológicos</td>
+                    <td>Dupilumab</td>
+                    <td>300 mg</td>
+                    <td>SC</td>
+                    <td>Cada 2 semanas</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Infecciosa (Candida)</td>
+                    <td rowspan="2">Antifúngicos</td>
+                    <td>Fluconazol</td>
+                    <td>100-200 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td>Nistatina</td>
+                    <td>500,000 UI</td>
+                    <td>Oral</td>
+                    <td>4 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Infecciosa (Viral)</td>
+                    <td rowspan="2">Antivirales</td>
+                    <td>Aciclovir</td>
+                    <td>400 mg</td>
+                    <td>Oral</td>
+                    <td>5 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Valaciclovir</td>
+                    <td>1 g</td>
+                    <td>Oral</td>
+                    <td>3 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Por píldoras</td>
+                    <td>IBP</td>
+                    <td>Pantoprazol</td>
+                    <td>40 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td>Citoprotectores</td>
+                    <td>Sucralfato</td>
+                    <td>1 g</td>
+                    <td>Oral</td>
+                    <td>4 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Por cáusticos</td>
+                    <td>Corticoides</td>
+                    <td>Metilprednisolona</td>
+                    <td>1 mg/kg</td>
+                    <td>IV</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Antibióticos</td>
+                    <td>Ampicilina/Sulbactam</td>
+                    <td>1.5-3 g</td>
+                    <td>IV</td>
+                    <td>4 veces/día</td>
+                </tr>
+                <tr>
+                    <td>IBP</td>
+                    <td>Pantoprazol</td>
+                    <td>40 mg</td>
+                    <td>IV</td>
+                    <td>2 veces/día</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos:</strong></p>
+        <ul>
+            <li>Reducir los síntomas y mejorar la calidad de vida.</li>
+            <li>Favorecer la cicatrización de la mucosa esofágica.</li>
+            <li>Prevenir complicaciones (estenosis, metaplasia).</li>
+            <li>Mantener un adecuado estado nutricional.</li>
+            <li>Identificar y evitar desencadenantes específicos.</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas según tipo:</strong></p>
+        
+        <p><strong>Para esofagitis por reflujo:</strong></p>
+        <ul>
+            <li><strong>Modificaciones dietéticas:</strong></li>
+            <ul>
+                <li>Evitar alimentos que relajan el EEI: chocolate, menta, café, alcohol, alimentos grasos.</li>
+                <li>Limitar alimentos ácidos: cítricos, tomate, vinagre, bebidas carbonatadas.</li>
+                <li>Evitar comidas copiosas (preferir 5-6 comidas pequeñas).</li>
+                <li>Reducir el consumo de alimentos muy condimentados.</li>
+                <li>Mantener peso adecuado (la obesidad aumenta la presión intraabdominal).</li>
+                <li>Cena ligera y al menos 2-3 horas antes de acostarse.</li>
+            </ul>
+            <li><strong>Modificaciones del estilo de vida:</strong></li>
+            <ul>
+                <li>Elevar la cabecera de la cama 15-20 cm.</li>
+                <li>Evitar ropa ajustada.</li>
+                <li>No acostarse inmediatamente después de comer.</li>
+                <li>Abandonar el tabaco.</li>
+                <li>Reducir el consumo de alcohol.</li>
+            </ul>
+        </ul>
+        
+        <p><strong>Para esofagitis eosinofílica:</strong></p>
+        <ul>
+            <li><strong>Dietas de eliminación:</strong></li>
+            <ul>
+                <li>Dieta de eliminación empírica de 6 alimentos (leche, trigo, huevo, soja, frutos secos, pescado/mariscos).</li>
+                <li>Dieta de eliminación dirigida por pruebas alérgicas.</li>
+                <li>Dieta elemental (fórmulas de aminoácidos) en casos refractarios.</li>
+                <li>Reintroducción secuencial para identificar desencadenantes específicos.</li>
+            </ul>
+            <li>Asegurar adecuado aporte nutricional durante las dietas restrictivas.</li>
+            <li>Considerar suplementación con calcio y vitamina D si se elimina la leche.</li>
+        </ul>
+        
+        <p><strong>Para esofagitis infecciosa:</strong></p>
+        <ul>
+            <li>Fase aguda: dieta líquida o semisólida según tolerancia.</li>
+            <li>Alimentos a temperatura ambiente (evitar extremos térmicos).</li>
+            <li>Evitar alimentos ácidos, picantes o ásperos.</li>
+            <li>Asegurar adecuada hidratación.</li>
+            <li>Suplementación nutricional si hay pérdida de peso significativa.</li>
+            <li>Progresión dietética según mejora de síntomas.</li>
+        </ul>
+        
+        <p><strong>Para esofagitis por píldoras:</strong></p>
+        <ul>
+            <li>Tomar medicamentos con abundante agua (al menos 100 ml).</li>
+            <li>Ingerir medicamentos en posición erguida.</li>
+            <li>No acostarse hasta 30 minutos después de tomar medicamentos.</li>
+            <li>Considerar formas líquidas de medicación en pacientes con disfagia.</li>
+            <li>Dieta blanda durante la fase aguda.</li>
+        </ul>
+        
+        <p><strong>Para esofagitis por cáusticos:</strong></p>
+        <ul>
+            <li>Fase aguda: nutrición parenteral o enteral por sonda nasoyeyunal según gravedad.</li>
+            <li>Fase de recuperación: progresión dietética según hallazgos endoscópicos.</li>
+            <li>Dieta líquida → semisólida → blanda → normal.</li>
+            <li>Adecuación de la textura en caso de estenosis residual.</li>
+            <li>Suplementación nutricional en caso de disfagia prolongada.</li>
+        </ul>
+    </div>
+</section>
+
+    <section>
+    <h2><i class="fas fa-lungs icon"></i> Hernia Hiatal</h2>
+
+    <button class="accordion">1. Definición</button>
+    <div class="panel">
+        <p>La hernia hiatal es una condición anatómica caracterizada por el desplazamiento de una porción del estómago (y ocasionalmente otros órganos abdominales) hacia la cavidad torácica a través del hiato esofágico del diafragma.</p>
+        
+        <p><strong>Clasificación:</strong></p>
+        
+        <div class="hernia-types">
+            <div class="hernia-type">
+                <h3>Tipo I: Por deslizamiento</h3>
+                <ul>
+                    <li>La más común (90% de los casos)</li>
+                    <li>La unión gastroesofágica y parte del estómago se desplazan por encima del diafragma</li>
+                    <li>Asociada frecuentemente a reflujo gastroesofágico</li>
+                </ul>
+            </div>
+            
+            <div class="hernia-type">
+                <h3>Tipo II: Paraesofágica</h3>
+                <ul>
+                    <li>La unión gastroesofágica permanece en posición normal</li>
+                    <li>El fondo gástrico se hernia a través del hiato</li>
+                    <li>Mayor riesgo de complicaciones mecánicas</li>
+                </ul>
+            </div>
+            
+            <div class="hernia-type">
+                <h3>Tipo III: Mixta</h3>
+                <ul>
+                    <li>Combinación de los tipos I y II</li>
+                    <li>Tanto la unión gastroesofágica como parte del fondo gástrico se hernian</li>
+                    <li>Síntomas mixtos de reflujo y compresión</li>
+                </ul>
+            </div>
+        </div>
+        
+        <p><strong>Tipo IV:</strong> Herniación de otros órganos además del estómago (colon, bazo, páncreas, intestino delgado) a través del hiato esofágico. Es la forma menos común y más compleja.</p>
+    </div>
+
+    <button class="accordion">2. Fisiopatología</button>
+    <div class="panel">
+        <p>La hernia hiatal se desarrolla por alteraciones anatómicas y funcionales:</p>
+        
+        <p><strong>1. Factores anatómicos:</strong></p>
+        <ul>
+            <li>Debilidad o laxitud de los ligamentos frenoesofágicos.</li>
+            <li>Aumento del tamaño del hiato esofágico diafragmático.</li>
+            <li>Acortamiento del esófago (esófago de Barrett, esofagitis crónica).</li>
+            <li>Alteraciones del ángulo de His (ángulo entre esófago y estómago).</li>
+        </ul>
+        
+        <p><strong>2. Factores funcionales:</strong></p>
+        <ul>
+            <li>Aumento crónico de la presión intraabdominal (obesidad, embarazo, ascitis).</li>
+            <li>Disminución del tono del esfínter esofágico inferior (EEI).</li>
+            <li>Alteraciones de la motilidad esofágica.</li>
+            <li>Envejecimiento con pérdida de elasticidad tisular.</li>
+        </ul>
+        
+        <p><strong>3. Consecuencias fisiopatológicas:</strong></p>
+        
+        <p><strong>Hernia por deslizamiento (tipo I):</strong></p>
+        <ul>
+            <li>Desplazamiento de la unión gastroesofágica por encima del diafragma.</li>
+            <li>Disrupción de la barrera antirreflujo natural.</li>
+            <li>Reducción de la presión del EEI.</li>
+            <li>Aumento de episodios de reflujo gastroesofágico.</li>
+            <li>Aclaramiento esofágico deficiente.</li>
+        </ul>
+        
+        <p><strong>Hernia paraesofágica (tipo II):</strong></p>
+        <ul>
+            <li>Unión gastroesofágica en posición normal.</li>
+            <li>Herniación de fondo gástrico adyacente al esófago.</li>
+            <li>Riesgo de volvulación, estrangulación o isquemia.</li>
+            <li>Compresión pulmonar en hernias grandes.</li>
+        </ul>
+        
+        <p><strong>Hernia mixta (tipo III):</strong></p>
+        <ul>
+            <li>Combinación de hernia por deslizamiento y paraesofágica.</li>
+            <li>Mayor riesgo de complicaciones mecánicas.</li>
+            <li>Síntomas mixtos de reflujo y compresión.</li>
+        </ul>
+        
+        <p><strong>4. Complicaciones:</strong></p>
+        <ul>
+            <li>Esofagitis por reflujo crónico.</li>
+            <li>Estenosis péptica.</li>
+            <li>Esófago de Barrett.</li>
+            <li>Anemia por sangrado crónico.</li>
+            <li>Volvulación gástrica.</li>
+            <li>Estrangulación e isquemia.</li>
+            <li>Síntomas respiratorios por compresión.</li>
+        </ul>
+    </div>
+
+    <button class="accordion">3. Epidemiología</button>
+    <div class="panel">
+        <ul>
+            <li>La prevalencia global se estima en 10-80% de la población, aumentando con la edad.</li>
+            <li>Las hernias por deslizamiento (tipo I) representan el 90% de los casos.</li>
+            <li>Las hernias paraesofágicas (tipos II-IV) constituyen el 5-10% restante.</li>
+            <li>Mayor prevalencia en personas mayores de 50 años.</li>
+            <li>Relación mujer:hombre de aproximadamente 2:1.</li>
+            <li>El 30-50% de los pacientes con hernia hiatal presentan síntomas de reflujo gastroesofágico.</li>
+            <li>Solo el 5-15% de las hernias hiatales son sintomáticas.</li>
+        </ul>
+        
+        <p><strong>Factores de riesgo:</strong></p>
+        <ul>
+            <li>Edad avanzada</li>
+            <li>Obesidad</li>
+            <li>Embarazos múltiples</li>
+            <li>Cirugía abdominal previa</li>
+            <li>EPOC con tos crónica</li>
+            <li>Estreñimiento crónico</li>
+            <li>Actividades que aumentan la presión intraabdominal (levantamiento de pesas, instrumentos de viento)</li>
+        </ul>
+    </div>
+
+    <button class="accordion">4. Cuadro Clínico</button>
+    <div class="panel">
+        <p><strong>Hernia por deslizamiento (tipo I):</strong></p>
+        <ul>
+            <li>Asintomática en muchos casos.</li>
+            <li><strong>Síntomas de reflujo gastroesofágico:</strong></li>
+            <ul>
+                <li>Pirosis (acidez retroesternal).</li>
+                <li>Regurgitación ácida.</li>
+                <li>Disfagia ocasional.</li>
+                <li>Dolor torácico no cardíaco.</li>
+            </ul>
+            <li><strong>Síntomas extraesofágicos:</strong></li>
+            <ul>
+                <li>Tos crónica</li>
+                <li>Ronquera</li>
+                <li>Asma</li>
+                <li>Laringitis</li>
+                <li>Erosiones dentales</li>
+            </ul>
+        </ul>
+        
+        <p><strong>Hernia paraesofágica (tipo II) y mixta (tipo III):</strong></p>
+        <ul>
+            <li>Sensación de plenitud o presión torácica postprandial.</li>
+            <li>Dolor retroesternal o epigástrico.</li>
+            <li>Disfagia progresiva.</li>
+            <li>Saciedad precoz.</li>
+            <li>Náuseas y vómitos.</li>
+            <li>Síntomas respiratorios (disnea, aspiración).</li>
+            <li>Anemia ferropénica por sangrado crónico.</li>
+            <li>Síntomas cardíacos (palpitaciones, dolor torácico).</li>
+        </ul>
+        
+        <p><strong>Complicaciones agudas:</strong></p>
+        <ul>
+            <li><strong>Volvulación gástrica:</strong> dolor intenso, vómitos improductivos, imposibilidad de pasar sonda nasogástrica.</li>
+            <li><strong>Estrangulación:</strong> dolor severo, signos de sepsis, shock.</li>
+            <li><strong>Perforación:</strong> dolor súbito, neumoperitoneo, signos de sepsis.</li>
+        </ul>
+        
+        <p><strong>Hallazgos en exploración física:</strong></p>
+        <ul>
+            <li>Generalmente normal en hernias pequeñas.</li>
+            <li>Ruidos hidroaéreos en tórax en hernias grandes.</li>
+            <li>Disminución de ruidos respiratorios basales.</li>
+            <li>Signos de anemia en casos de sangrado crónico.</li>
+        </ul>
+    </div>
+
+    <button class="accordion">5. Tratamiento Farmacológico</button>
+    <div class="panel">
+        <p>El tratamiento farmacológico se dirige principalmente a controlar los síntomas de reflujo asociados:</p>
+        
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Grupo farmacológico</th>
+                    <th>Fármaco</th>
+                    <th>Dosis</th>
+                    <th>Vía</th>
+                    <th>Frecuencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">IBP</td>
+                    <td>Omeprazol</td>
+                    <td>20-40 mg</td>
+                    <td>Oral</td>
+                    <td>1-2 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Esomeprazol</td>
+                    <td>20-40 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td>Pantoprazol</td>
+                    <td>40 mg</td>
+                    <td>Oral</td>
+                    <td>1 vez/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Antagonistas H2</td>
+                    <td>Ranitidina</td>
+                    <td>150 mg</td>
+                    <td>Oral</td>
+                    <td>2 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Famotidina</td>
+                    <td>20 mg</td>
+                    <td>Oral</td>
+                    <td>2 veces/día</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Procinéticos</td>
+                    <td>Domperidona</td>
+                    <td>10 mg</td>
+                    <td>Oral</td>
+                    <td>3 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Cinitaprida</td>
+                    <td>1 mg</td>
+                    <td>Oral</td>
+                    <td>3 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Antiácidos</td>
+                    <td>Hidróxido Al/Mg</td>
+                    <td>10-20 ml</td>
+                    <td>Oral</td>
+                    <td>3-4 veces/día</td>
+                </tr>
+                <tr>
+                    <td>Alginatos</td>
+                    <td>Alginato sódico</td>
+                    <td>10-20 ml</td>
+                    <td>Oral</td>
+                    <td>3-4 veces/día</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Tratamiento quirúrgico:</strong></p>
+        <ul>
+            <li><strong>Indicaciones:</strong></li>
+            <ul>
+                <li>Hernias paraesofágicas sintomáticas</li>
+                <li>Hernias tipo III y IV</li>
+                <li>Hernias tipo I con síntomas refractarios al tratamiento médico</li>
+                <li>Complicaciones: estrangulación, volvulación, sangrado recurrente</li>
+            </ul>
+            <li><strong>Técnicas:</strong></li>
+            <ul>
+                <li>Funduplicatura de Nissen (360°)</li>
+                <li>Funduplicatura de Toupet (270°)</li>
+                <li>Funduplicatura de Dor (180°)</li>
+            </ul>
+            <li><strong>Abordaje:</strong></li>
+            <ul>
+                <li>Laparoscópico (preferente)</li>
+                <li>Abierto</li>
+                <li>Transtorácico</li>
+            </ul>
+        </ul>
+    </div>
+
+    <button class="accordion">6. Tratamiento Nutricional</button>
+    <div class="panel">
+        <p><strong>Objetivos dietoterapéuticos:</strong></p>
+        <ul>
+            <li>Reducir los síntomas de reflujo gastroesofágico.</li>
+            <li>Prevenir la distensión gástrica que puede empeorar la herniación.</li>
+            <li>Evitar el aumento de la presión intraabdominal.</li>
+            <li>Mantener o lograr un peso corporal adecuado.</li>
+            <li>Prevenir complicaciones como esofagitis, estenosis o Barrett.</li>
+        </ul>
+        
+        <p><strong>Recomendaciones específicas:</strong></p>
+        
+        <p><strong>Patrón alimentario:</strong></p>
+        <ul>
+            <li>Fraccionar la alimentación (5-6 comidas pequeñas al día).</li>
+            <li>Masticar adecuadamente y comer despacio.</li>
+            <li>Mantener posición erguida durante y después de las comidas.</li>
+            <li>Esperar 2-3 horas después de cenar antes de acostarse.</li>
+            <li>Evitar comidas copiosas, especialmente en la cena.</li>
+        </ul>
+        
+        <p><strong>Alimentos y bebidas a limitar o evitar:</strong></p>
+        
+        <p><strong>Relajantes del esfínter esofágico inferior:</strong></p>
+        <ul>
+            <li>Chocolate</li>
+            <li>Menta y hierbabuena</li>
+            <li>Café (incluso descafeinado)</li>
+            <li>Té negro</li>
+            <li>Bebidas alcohólicas</li>
+            <li>Alimentos grasos (frituras, salsas cremosas)</li>
+            <li>Cebolla y ajo crudos</li>
+        </ul>
+        
+        <p><strong>Irritantes de la mucosa esofágica:</strong></p>
+        <ul>
+            <li>Cítricos y jugos cítricos</li>
+            <li>Tomate y derivados</li>
+            <li>Vinagre y alimentos encurtidos</li>
+            <li>Bebidas carbonatadas</li>
+            <li>Alimentos muy condimentados o picantes</li>
+            <li>Alimentos muy ácidos</li>
+        </ul>
+        
+        <p><strong>Técnicas culinarias recomendadas:</strong></p>
+        <ul>
+            <li>Cocción al vapor, hervido, horno, papillote.</li>
+            <li>Evitar frituras y rebozados.</li>
+            <li>Preparaciones con poca grasa añadida.</li>
+            <li>Temperatura moderada de los alimentos (ni muy calientes ni muy fríos).</li>
+        </ul>
+        
+        <p><strong>Recomendaciones para casos específicos:</strong></p>
+        
+        <p><strong>Hernia hiatal con disfagia:</strong></p>
+        <ul>
+            <li>Adaptar la textura de los alimentos según el grado de disfagia.</li>
+            <li>Preferir alimentos húmedos y de fácil masticación.</li>
+            <li>Evitar alimentos secos o fibrosos.</li>
+            <li>Utilizar salsas suaves para facilitar la deglución.</li>
+        </ul>
+        
+        <p><strong>Hernia hiatal con anemia:</strong></p>
+        <ul>
+            <li>Aumentar el consumo de alimentos ricos en hierro (carnes rojas magras, legumbres).</li>
+            <li>Combinar con alimentos ricos en vitamina C para mejorar absorción.</li>
+            <li>Considerar suplementación con hierro si está indicado médicamente.</li>
+        </ul>
+        
+        <p><strong>Modificaciones del estilo de vida:</strong></p>
+        <ul>
+            <li>Control de peso: pérdida de peso en caso de sobrepeso/obesidad.</li>
+            <li>Elevar la cabecera de la cama 15-20 cm.</li>
+            <li>Evitar ropa ajustada en abdomen.</li>
+            <li>Evitar ejercicios que aumenten la presión intraabdominal.</li>
+            <li>Abandonar el tabaco.</li>
+            <li>Técnicas de manejo del estrés (el estrés puede aumentar la sintomatología).</li>
+        </ul>
+    </div>
+</section>
 
     <article>
         <h3>Disfagia</h3>
@@ -2097,5 +4652,6 @@
     </article>
 </section>    </main>
     <script src="script.js"></script>
+
 </body>
 </html>
