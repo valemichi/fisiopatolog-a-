@@ -237,3 +237,14 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.accordion.active {
+    background-color: #1c5980;
+}
+
+.panel {
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+}

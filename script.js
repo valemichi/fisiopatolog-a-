@@ -1,121 +1,21 @@
-document.querySelectorAll("article").forEach(item => {
-    item.addEventListener("click", () => {
-        alert("Sección seleccionada");
-    });
-});
-document.querySelectorAll("article").forEach(item => {
-    item.addEventListener("click", () => {
-        alert("Sección seleccionada");
-    });
-});
-document.querySelectorAll("details").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelectorAll("details").forEach(el => {
-            if (el !== item) {
-                el.removeAttribute("open");
+// === ACORDEÓN: Solo un panel abierto a la vez ===
+document.querySelectorAll(".accordion").forEach((accordion) => {
+    accordion.addEventListener("click", function () {
+        document.querySelectorAll(".accordion").forEach((otherAccordion) => {
+            if (otherAccordion !== this) {
+                otherAccordion.classList.remove("active");
+                const otherPanel = otherAccordion.nextElementSibling;
+                otherPanel.style.display = "none";
             }
         });
-    });
-});
-document.querySelectorAll("details").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelectorAll("details").forEach(el => {
-            if (el !== item) {
-                el.removeAttribute("open");
-            }
-        });
-    });
-});
-document.querySelectorAll("details").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelectorAll("details").forEach(el => {
-            if (el !== item) {
-                el.removeAttribute("open");
-            }
-        });
-    });
-});
-document.querySelectorAll("details").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelectorAll("details").forEach(el => {
-            if (el !== item) {
-                el.removeAttribute("open");
-            }
-        });
-    });
-});
-document.querySelectorAll("details").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelectorAll("details").forEach(el => {
-            if (el !== item) {
-                el.removeAttribute("open");
-            }
-        });
-    });
-});
-var acc = document.getElementsByClassName("accordion");
-for (var i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
+
         this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
-document.querySelectorAll("details").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelectorAll("details").forEach(el => {
-            if (el !== item) {
-                el.removeAttribute("open");
-            }
-        });
-    });
-});
-document.querySelectorAll("details").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelectorAll("details").forEach(el => {
-            if (el !== item) {
-                el.removeAttribute("open");
-            }
-        });
-    });
-});
-document.querySelectorAll("details").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelectorAll("details").forEach(el => {
-            if (el !== item) {
-                el.removeAttribute("open");
-            }
-        });
-    });
-});
-document.querySelectorAll("details").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelectorAll("details").forEach(el => {
-            if (el !== item) {
-                el.removeAttribute("open");
-            }
-        });
-    });
-});
-document.querySelectorAll("details").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelectorAll("details").forEach(el => {
-            if (el !== item) {
-                el.removeAttribute("open");
-            }
-        });
-    });
-});
-document.querySelectorAll("article").forEach(item => {
-    item.addEventListener("click", () => {
-        item.style.backgroundColor = "#ffff99"; // Resalta el artículo sin mostrar alerta
+        const panel = this.nextElementSibling;
+        panel.style.display = panel.style.display === "block" ? "none" : "block";
     });
 });
 
+// === BUSCADOR DE TEXTO EN ARTÍCULOS ===
 function buscarTexto() {
     let input = document.getElementById("searchBox").value.toLowerCase();
     let articles = document.querySelectorAll("article");
@@ -126,43 +26,28 @@ function buscarTexto() {
         if (text.includes(input) && input.length > 0) {
             article.style.backgroundColor = "#ffff99"; // Resalta los resultados
             if (!encontrado) {
-                article.scrollIntoView({ behavior: "smooth", block: "start" }); // Mueve al usuario
+                article.scrollIntoView({ behavior: "smooth", block: "start" });
                 encontrado = true;
             }
         } else {
-            article.style.backgroundColor = "white"; // Restaura el fondo si no coincide
+            article.style.backgroundColor = "white"; // Restaura si no coincide
         }
     });
 }
-var acc = document.getElementsByClassName("accordion");
-for (var i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
+
+// === CLICK EN ARTÍCULOS: Cambia el fondo (sin alerta) ===
+document.querySelectorAll("article").forEach(item => {
+    item.addEventListener("click", () => {
+        document.querySelectorAll("article").forEach(a => a.style.backgroundColor = "white");
+        item.style.backgroundColor = "#ffff99";
     });
-}
-document.addEventListener('DOMContentLoaded', function() {
-    var acc = document.getElementsByClassName("accordion");
+});
 
-    function toggleAccordion() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        panel.style.display = (panel.style.display === "block") ? "none" : "block";
-    }
-
-    for (var i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", toggleAccordion);
-    }
-
-    // Abrir automáticamente el primer acordeón al cargar la página
-    if (acc.length > 0) {
-        acc[0].classList.add("active");
-        var firstPanel = acc[0].nextElementSibling;
-        if (firstPanel) firstPanel.style.display = "block";
-    }
+// === DETAILS: Abre solo uno a la vez (si usas <details>) ===
+document.querySelectorAll("details").forEach((item) => {
+    item.addEventListener("click", function () {
+        document.querySelectorAll("details").forEach((el) => {
+            if (el !== item) el.removeAttribute("open");
+        });
+    });
 });
