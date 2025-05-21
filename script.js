@@ -51,3 +51,4 @@ document.querySelectorAll("details").forEach((item) => {
         });
     });
 });
+
