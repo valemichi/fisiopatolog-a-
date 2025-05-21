@@ -513,4 +513,58 @@ h2 {
         gap: 24px;
       }
     }
+.sistema-card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    margin: 2rem 0;
+    padding: 2rem;
+    border-left: 10px solid #ccc;
+    color: #222; /* Color de texto oscuro para máxima legibilidad */
+}
+
+/* Solo el borde cambia de color según el sistema */
+.sistema-cardiovascular    { border-left-color: #e53935; }
+.sistema-respiratorio      { border-left-color: #42a5f5; }
+.sistema-digestivo         { border-left-color: #fb8c00; }
+.sistema-endocrino         { border-left-color: #8e24aa; }
+.sistema-excretor          { border-left-color: #43a047; }
+.sistema-otros             { border-left-color: #607d8b; }
+
+/* Cardiovascular */
+.sistema-cardiovascular {
+    border-left-color: #e53935;
+    
+}
+
+/* Respiratorio */
+.sistema-respiratorio {
+    border-left-color: #42a5f5;
+    
+}
+
+/* Digestivo */
+.sistema-digestivo {
+    border-left-color: #fb8c00;
+    color: #e65100;
+}
+
+/* Endocrino */
+.sistema-endocrino {
+    border-left-color: #8e24aa;
+    color: #4a148c;
+}
+
+/* Excretor */
+.sistema-excretor {
+    border-left-color: #43a047;
+    color: #1b5e20;
+}
+
+/* Otros */
+.sistema-otros {
+    border-left-color: #607d8b;
+    color: #263238;
+}
+
   </style>
